@@ -1,0 +1,894 @@
+{
+  "chunks": [
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 0.0,
+      "end": 3.72,
+      "text": " Now next we are going to talk about how to structure our components."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 3.84,
+      "end": 8.76,
+      "text": " So for this, what we can do is, we can go to the Atlassian website."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 11.08,
+      "end": 15.6,
+      "text": " And here basically, when we look at these small components,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 16.0,
+      "end": 18.400000000000002,
+      "text": " we can look at these components."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 18.400000000000002,
+      "end": 22.0,
+      "text": " So in these components, whenever we look at any big website,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 22.0,
+      "end": 25.560000000000002,
+      "text": " what we have to do is, by looking at any big page,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 25.72,
+      "end": 30.279999999999998,
+      "text": " we have to break down that page into small components."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 30.56,
+      "end": 33.48,
+      "text": " We have to think about which thing can be a component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 33.8,
+      "end": 38.28,
+      "text": " For example, this big piece, this big window can be our app component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 38.44,
+      "end": 41.16,
+      "text": " In it, we have a heading component,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 41.16,
+      "end": 42.8,
+      "text": " we have a link component,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 42.8,
+      "end": 44.599999999999994,
+      "text": " we have a card component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 44.8,
+      "end": 47.92,
+      "text": " And these individual card components, in some way."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 48.12,
+      "end": 51.68,
+      "text": " In these card components, we have an icon component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 51.92,
+      "end": 53.92,
+      "text": " This is our title and description,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 53.92,
+      "end": 55.92,
+      "text": " we can call it as the title component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 56.32,
+      "end": 59.76,
+      "text": " Or we can call it as the title, or our description component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 59.96,
+      "end": 62.76,
+      "text": " Similarly, this is our title and description component again."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 62.96,
+      "end": 66.76,
+      "text": " So by thinking about breaking down any big website,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 67.0,
+      "end": 71.68,
+      "text": " we have to think about which UI element can be a component for us."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 71.92,
+      "end": 76.0,
+      "text": " And then we have to start building those components in a smaller size."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 76.4,
+      "end": 79.48,
+      "text": " For example, we want to build some components in this way."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 79.76,
+      "end": 83.04,
+      "text": " So first of all, we will build our title component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 84.2,
+      "end": 87.48,
+      "text": " After that, we can build our description component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 87.80000000000001,
+      "end": 91.60000000000001,
+      "text": " Then by combining both, we have a card component for ourselves,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 91.60000000000001,
+      "end": 92.76,
+      "text": " which we can build."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 93.0,
+      "end": 95.60000000000001,
+      "text": " Or in fact, we can give them a different name."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 95.84,
+      "end": 99.12,
+      "text": " This single can be our product component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 99.32000000000001,
+      "end": 103.4,
+      "text": " We can have a title or description in the product."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 103.72,
+      "end": 107.36,
+      "text": " Similarly, this second can be our product component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 107.6,
+      "end": 110.48,
+      "text": " This third can be our product component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 110.68,
+      "end": 113.0,
+      "text": " Now when we will make our product components,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 113.2,
+      "end": 114.76,
+      "text": " let's make one of these."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 115.16,
+      "end": 117.64,
+      "text": " Let's create a new component for ourselves."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 117.64,
+      "end": 120.72,
+      "text": " We will call it product.jsx."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 121.0,
+      "end": 123.92,
+      "text": " Now in product.jsx, we will make a function."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 125.0,
+      "end": 126.16,
+      "text": " With the name of product."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 127.6,
+      "end": 130.6,
+      "text": " And this function will return for us."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 131.44,
+      "end": 135.51999999999998,
+      "text": " We will return a div, in which we have H3."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 135.51999999999998,
+      "end": 137.0,
+      "text": " This will be H3 heading."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 137.24,
+      "end": 139.24,
+      "text": " This is my product title."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 140.24,
+      "end": 142.92,
+      "text": " And we can keep one H5 heading."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 142.92,
+      "end": 146.07999999999998,
+      "text": " This is going to be the product description."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 146.84,
+      "end": 148.0,
+      "text": " And we can do this."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 148.0,
+      "end": 151.32,
+      "text": " Now we will go from here and default export."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 151.72,
+      "end": 153.32,
+      "text": " We will require our product."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 154.92,
+      "end": 156.84,
+      "text": " And here we will require it."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 156.84,
+      "end": 159.35999999999999,
+      "text": " We can import our product."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 159.36,
+      "end": 163.52,
+      "text": " We can import our product from .slash."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 164.24,
+      "end": 167.36,
+      "text": " Product.jsx."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 168.04000000000002,
+      "end": 169.0,
+      "text": " Let's do this."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 169.20000000000002,
+      "end": 171.60000000000002,
+      "text": " Now when we will print in the app,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 171.60000000000002,
+      "end": 173.60000000000002,
+      "text": " we want to display three products."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 174.16000000000003,
+      "end": 176.0,
+      "text": " This is our first product."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 177.04000000000002,
+      "end": 178.8,
+      "text": " This is our second product."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 179.12,
+      "end": 181.44000000000003,
+      "text": " And this is our third product."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 181.44000000000003,
+      "end": 184.32000000000002,
+      "text": " So we are displaying three different products."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 184.64000000000001,
+      "end": 186.64000000000001,
+      "text": " We will save it and go here."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 186.76,
+      "end": 188.35999999999999,
+      "text": " So this is our first product."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 188.35999999999999,
+      "end": 189.83999999999997,
+      "text": " This is our second product."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 189.83999999999997,
+      "end": 191.23999999999998,
+      "text": " This is our third product."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 191.48,
+      "end": 193.48,
+      "text": " These three products are displayed for us."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 193.76,
+      "end": 196.44,
+      "text": " But generally when we structure our React app,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 196.44,
+      "end": 199.55999999999997,
+      "text": " although there is no problem in writing this code like this."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 199.88,
+      "end": 202.88,
+      "text": " But generally, if we combine things,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 203.04,
+      "end": 205.35999999999999,
+      "text": " then when we combine multiple things,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 205.35999999999999,
+      "end": 207.76,
+      "text": " then we make a new component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 208.0,
+      "end": 210.27999999999997,
+      "text": " We create a new component from that."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 210.48,
+      "end": 212.92,
+      "text": " And this is how conventionally we write React."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 213.04,
+      "end": 218.11999999999998,
+      "text": " Although there is no problem in writing three products in a simple app component like this."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 218.39999999999998,
+      "end": 220.92,
+      "text": " But generally when we write a code in React,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 220.92,
+      "end": 224.39999999999998,
+      "text": " then we will combine these products in a large component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 224.39999999999998,
+      "end": 227.35999999999999,
+      "text": " We can call this large component as product tab,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 227.35999999999999,
+      "end": 228.72,
+      "text": " product group,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 228.72,
+      "end": 230.79999999999998,
+      "text": " any product list."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 231.23999999999998,
+      "end": 233.44,
+      "text": " So we will create a new component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 233.79999999999998,
+      "end": 236.2,
+      "text": " Which is going to be product tab."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 236.2,
+      "end": 238.92,
+      "text": " We call it product tab.jsx."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 239.92,
+      "end": 242.48,
+      "text": " And in product tab.jsx,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 242.48,
+      "end": 243.92,
+      "text": " we will write function"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 243.92,
+      "end": 245.92,
+      "text": " product tab."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 247.44,
+      "end": 249.44,
+      "text": " And what will it return?"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 249.44,
+      "end": 251.44,
+      "text": " It will basically return this value."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 251.44,
+      "end": 255.04,
+      "text": " This value is returning from app.jsx."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 255.04,
+      "end": 258.4,
+      "text": " Now my product tab will return the same value."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 258.4,
+      "end": 259.91999999999996,
+      "text": " Let's save it."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 259.91999999999996,
+      "end": 261.28,
+      "text": " So what will the product tab do?"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 261.28,
+      "end": 264.15999999999997,
+      "text": " The product tab will first combine these products."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 264.71999999999997,
+      "end": 266.0,
+      "text": " And from here,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 266.0,
+      "end": 268.8,
+      "text": " we will import our product."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 269.48,
+      "end": 270.92,
+      "text": " From dot slash"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 270.92,
+      "end": 273.92,
+      "text": " product.jsx."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 274.40000000000003,
+      "end": 275.52000000000004,
+      "text": " And by combining,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 275.52000000000004,
+      "end": 276.92,
+      "text": " we will export these products."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 276.92,
+      "end": 277.6,
+      "text": " So from here,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 277.6,
+      "end": 279.48,
+      "text": " export default will be our"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 279.48,
+      "end": 281.48,
+      "text": " product tab."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 281.92,
+      "end": 285.24,
+      "text": " And then we will require this product tab."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 285.24,
+      "end": 287.64,
+      "text": " Basically, from product tab,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 287.64,
+      "end": 289.28000000000003,
+      "text": " we will require product tab."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 289.28000000000003,
+      "end": 292.64,
+      "text": " And we will use our product tab."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 292.64,
+      "end": 293.68,
+      "text": " Let's do this."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 293.68,
+      "end": 295.28000000000003,
+      "text": " As our code will be there,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 295.28000000000003,
+      "end": 296.68,
+      "text": " there will be no changes."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 296.68,
+      "end": 298.28000000000003,
+      "text": " You can refresh it and check it."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 298.35999999999996,
+      "end": 300.55999999999995,
+      "text": " Our UI will look the same."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 300.55999999999995,
+      "end": 303.15999999999997,
+      "text": " But the format of structuring the code has changed."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 303.15999999999997,
+      "end": 304.64,
+      "text": " How to structure?"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 304.64,
+      "end": 306.64,
+      "text": " First, we have to make individual components"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 306.64,
+      "end": 307.84,
+      "text": " which we are exporting."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 307.84,
+      "end": 310.64,
+      "text": " If we have to combine individual components,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 310.64,
+      "end": 313.4,
+      "text": " then we have to combine them in a new component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 313.4,
+      "end": 316.67999999999995,
+      "text": " And then we are using that new component in our app."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 316.67999999999995,
+      "end": 320.0,
+      "text": " So in the same way, our hierarchy builds in the React."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 320.0,
+      "end": 323.0,
+      "text": " Basically, we have a small component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 323.0,
+      "end": 325.28,
+      "text": " This is our product component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 325.28,
+      "end": 327.76,
+      "text": " When a lot of product components are combined,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 327.76,
+      "end": 330.76,
+      "text": " then that product tab will go into the component."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 330.76,
+      "end": 332.76,
+      "text": " And when we combine all these,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 332.76,
+      "end": 335.4,
+      "text": " then we can use it in our app."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 335.4,
+      "end": 337.2,
+      "text": " So this increases the reusability."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 337.2,
+      "end": 339.4,
+      "text": " Meaning, if we don't have a product tab,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 339.4,
+      "end": 341.28,
+      "text": " we have to show three product tabs."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 341.28,
+      "end": 345.36,
+      "text": " So for that, we can simply replicate this thing three times."
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 345.36,
+      "end": 348.2,
+      "text": " So if we have to use product tabs again and again,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 348.2,
+      "end": 350.2,
+      "text": " then to make that thing reusable,"
+    },
+    {
+      "number": "11",
+      "title": "Structuring Components.mp3",
+      "start": 350.2,
+      "end": 353.2,
+      "text": " we are setting a separate component for that."
+    }
+  ],
+  "text": " Now next we are going to talk about how to structure our components. So for this, what we can do is, we can go to the Atlassian website. And here basically, when we look at these small components, we can look at these components. So in these components, whenever we look at any big website, what we have to do is, by looking at any big page, we have to break down that page into small components. We have to think about which thing can be a component. For example, this big piece, this big window can be our app component. In it, we have a heading component, we have a link component, we have a card component. And these individual card components, in some way. In these card components, we have an icon component. This is our title and description, we can call it as the title component. Or we can call it as the title, or our description component. Similarly, this is our title and description component again. So by thinking about breaking down any big website, we have to think about which UI element can be a component for us. And then we have to start building those components in a smaller size. For example, we want to build some components in this way. So first of all, we will build our title component. After that, we can build our description component. Then by combining both, we have a card component for ourselves, which we can build. Or in fact, we can give them a different name. This single can be our product component. We can have a title or description in the product. Similarly, this second can be our product component. This third can be our product component. Now when we will make our product components, let's make one of these. Let's create a new component for ourselves. We will call it product.jsx. Now in product.jsx, we will make a function. With the name of product. And this function will return for us. We will return a div, in which we have H3. This will be H3 heading. This is my product title. And we can keep one H5 heading. This is going to be the product description. And we can do this. Now we will go from here and default export. We will require our product. And here we will require it. We can import our product. We can import our product from .slash. Product.jsx. Let's do this. Now when we will print in the app, we want to display three products. This is our first product. This is our second product. And this is our third product. So we are displaying three different products. We will save it and go here. So this is our first product. This is our second product. This is our third product. These three products are displayed for us. But generally when we structure our React app, although there is no problem in writing this code like this. But generally, if we combine things, then when we combine multiple things, then we make a new component. We create a new component from that. And this is how conventionally we write React. Although there is no problem in writing three products in a simple app component like this. But generally when we write a code in React, then we will combine these products in a large component. We can call this large component as product tab, product group, any product list. So we will create a new component. Which is going to be product tab. We call it product tab.jsx. And in product tab.jsx, we will write function product tab. And what will it return? It will basically return this value. This value is returning from app.jsx. Now my product tab will return the same value. Let's save it. So what will the product tab do? The product tab will first combine these products. And from here, we will import our product. From dot slash product.jsx. And by combining, we will export these products. So from here, export default will be our product tab. And then we will require this product tab. Basically, from product tab, we will require product tab. And we will use our product tab. Let's do this. As our code will be there, there will be no changes. You can refresh it and check it. Our UI will look the same. But the format of structuring the code has changed. How to structure? First, we have to make individual components which we are exporting. If we have to combine individual components, then we have to combine them in a new component. And then we are using that new component in our app. So in the same way, our hierarchy builds in the React. Basically, we have a small component. This is our product component. When a lot of product components are combined, then that product tab will go into the component. And when we combine all these, then we can use it in our app. So this increases the reusability. Meaning, if we don't have a product tab, we have to show three product tabs. So for that, we can simply replicate this thing three times. So if we have to use product tabs again and again, then to make that thing reusable, we are setting a separate component for that."
+}

@@ -1,0 +1,1412 @@
+{
+  "chunks": [
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 0.0,
+      "end": 4.76,
+      "text": " Now we are going to talk about our first hook which is called UState."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 4.76,
+      "end": 6.76,
+      "text": " UState is a React hook."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 6.76,
+      "end": 11.84,
+      "text": " We had already learnt that it is a function that helps us deal with states."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 11.84,
+      "end": 17.240000000000002,
+      "text": " So UState is a React hook that lets you add a state variable to your component."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 17.240000000000002,
+      "end": 18.580000000000002,
+      "text": " What are state variables?"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 18.580000000000002,
+      "end": 22.34,
+      "text": " State variables are variables in which if something changes,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 22.34,
+      "end": 25.740000000000002,
+      "text": " then in that case we have to re-render the React component."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 25.74,
+      "end": 30.779999999999998,
+      "text": " If we want to change something in UI with the help of which if we want to change something in DOM,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 30.779999999999998,
+      "end": 33.86,
+      "text": " then we use our state variables for all those changes,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 33.86,
+      "end": 36.36,
+      "text": " not other normal variables or props."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 36.36,
+      "end": 41.56,
+      "text": " So whenever we need a change in something on an event or in something else in our UI,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 41.56,
+      "end": 43.56,
+      "text": " then we will always use state variables."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 43.56,
+      "end": 48.06,
+      "text": " Now to use UState, we can go to the documentation."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 50.06,
+      "end": 53.56,
+      "text": " And in the documentation of React.dev, if we go to UState,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 53.78,
+      "end": 57.28,
+      "text": " then basically to use UState, we have to write this line."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 57.28,
+      "end": 62.38,
+      "text": " So the method UState is, first of all we pass an initial state."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 62.38,
+      "end": 68.68,
+      "text": " This initial state is our initial value with which we have our state variable."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 68.68,
+      "end": 72.68,
+      "text": " For example, if we take an example here, we want as soon as it changes to the count,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 72.68,
+      "end": 77.08,
+      "text": " this component, if it re-renders, if its value changes,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 77.08,
+      "end": 80.48,
+      "text": " then our state variable will be the count variable here."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 80.5,
+      "end": 85.5,
+      "text": " And we initialized the count variable with which value, we initialized the count variable with zero value."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 85.5,
+      "end": 91.0,
+      "text": " So here when we write UState with our count variable, we will pass zero in the initialized state."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 91.0,
+      "end": 97.0,
+      "text": " And our UState method returns an array in which there are always two elements."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 97.0,
+      "end": 101.0,
+      "text": " In fact, we can read about it in the documentation also."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 101.0,
+      "end": 106.5,
+      "text": " This is our method UState. It returns an array with exactly two values."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 106.52,
+      "end": 109.52,
+      "text": " We always have two values, neither one nor three."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 109.52,
+      "end": 112.02,
+      "text": " The first value is our current state."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 112.02,
+      "end": 116.02,
+      "text": " That is, during the first render, it will match the initial state you have passed."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 116.02,
+      "end": 120.02,
+      "text": " Current state means state, that is, basically our variable,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 120.02,
+      "end": 122.52,
+      "text": " which we will treat as a state variable."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 122.52,
+      "end": 125.52,
+      "text": " So in the beginning, if we pass the initial value zero,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 125.52,
+      "end": 129.52,
+      "text": " and here if our variable is count, which is our state variable,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 129.52,
+      "end": 132.52,
+      "text": " then the count value will also be equal to zero."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 132.52,
+      "end": 134.52,
+      "text": " After that, it will be updated."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 134.54000000000002,
+      "end": 140.54000000000002,
+      "text": " So the second thing is that in this array, it is a set function that lets you update the state to a different value and trigger a re-render."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 140.54000000000002,
+      "end": 145.54000000000002,
+      "text": " That is, this is the method in which our state variable's value is updated."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 145.54000000000002,
+      "end": 153.54000000000002,
+      "text": " And when this method is called, then the state variable's value is updated and then the re-render is the entire component."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 153.54000000000002,
+      "end": 159.54000000000002,
+      "text": " So this is actually our rule that is triggering our re-render."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 159.56,
+      "end": 164.56,
+      "text": " And this method is called our updater function."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 164.56,
+      "end": 168.56,
+      "text": " Because it is used to update our state variable."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 168.56,
+      "end": 173.56,
+      "text": " Now let's see how we can actually use the use state to build our counter."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 173.56,
+      "end": 176.56,
+      "text": " Let's refresh it and come here from the beginning."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 176.56,
+      "end": 179.56,
+      "text": " Now we know that this thing will not work out now."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 179.56,
+      "end": 181.56,
+      "text": " Neither will it work out the count for us now."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 181.56,
+      "end": 183.56,
+      "text": " We will also have to use the state."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 183.56,
+      "end": 186.56,
+      "text": " So we will call the use state method."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 186.58,
+      "end": 191.58,
+      "text": " And in the use state method, we will pass our initial state which is going to be zero."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 191.58,
+      "end": 194.58,
+      "text": " And this use state method will return an array."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 194.58,
+      "end": 198.58,
+      "text": " So let whatever is our array, it will return an array for us."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 198.58,
+      "end": 204.58,
+      "text": " And in the beginning, we will just print the value of this array and see what will be printed in this array."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 204.58,
+      "end": 208.58,
+      "text": " Also, another note that we cannot directly use the use state."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 208.58,
+      "end": 211.58,
+      "text": " We have to import it from the react."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 211.60000000000002,
+      "end": 217.60000000000002,
+      "text": " So we will import the use state from react."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 217.60000000000002,
+      "end": 220.60000000000002,
+      "text": " So automatically, we are filling in the vscode for us."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 220.60000000000002,
+      "end": 224.60000000000002,
+      "text": " And we will pass our initial value zero in the use state for now."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 224.60000000000002,
+      "end": 227.60000000000002,
+      "text": " We will return the array and print its value."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 227.60000000000002,
+      "end": 230.60000000000002,
+      "text": " Let's save it."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 230.60000000000002,
+      "end": 232.60000000000002,
+      "text": " There is some error."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 232.60000000000002,
+      "end": 234.60000000000002,
+      "text": " Count is not defined."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 234.60000000000002,
+      "end": 236.60000000000002,
+      "text": " The count variable is not there now."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 236.60000000000002,
+      "end": 238.60000000000002,
+      "text": " So let's refresh it."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 238.62,
+      "end": 241.62,
+      "text": " Increment count is also not defined."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 241.62,
+      "end": 243.62,
+      "text": " Let's remove it."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 243.62,
+      "end": 246.62,
+      "text": " We are working out all the things."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 246.62,
+      "end": 251.62,
+      "text": " And in our app.jsx or main.jsx,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 251.62,
+      "end": 256.62,
+      "text": " We will also remove the react strict mode for now."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 256.62,
+      "end": 258.62,
+      "text": " So here, this thing is being printed for us."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 258.62,
+      "end": 261.62,
+      "text": " Now this is our array which is returned by the use state."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 261.62,
+      "end": 263.62,
+      "text": " In the array, there is an initial value."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 263.62,
+      "end": 265.62,
+      "text": " And the second parameter is a function."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 265.64,
+      "end": 269.64,
+      "text": " There are some details internally in the function."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 269.64,
+      "end": 273.64,
+      "text": " But we have verified that the first thing is a state for us."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 273.64,
+      "end": 276.64,
+      "text": " And the second thing is a function for us."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 276.64,
+      "end": 279.64,
+      "text": " Now in the start, the same value will be there in this state."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 279.64,
+      "end": 281.64,
+      "text": " Which we will pass as an initial state."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 281.64,
+      "end": 283.64,
+      "text": " If I pass 10 here."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 283.64,
+      "end": 285.64,
+      "text": " And if I see here,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 285.64,
+      "end": 289.64,
+      "text": " In the console again, the initial state is equal to the initial value."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 289.64,
+      "end": 291.64,
+      "text": " Which is equal to 10."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 291.65999999999997,
+      "end": 295.65999999999997,
+      "text": " Now here, what do we do in the array?"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 295.65999999999997,
+      "end": 301.65999999999997,
+      "text": " Generally, we deconstruct the array."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 301.65999999999997,
+      "end": 305.65999999999997,
+      "text": " To deconstruct the array, we call the state variable"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 305.65999999999997,
+      "end": 307.65999999999997,
+      "text": " the element of the zeroth index."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 307.65999999999997,
+      "end": 310.65999999999997,
+      "text": " This is called a state variable."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 310.65999999999997,
+      "end": 312.65999999999997,
+      "text": " And the second thing is our method."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 312.65999999999997,
+      "end": 315.65999999999997,
+      "text": " Which we always start with the set."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 315.65999999999997,
+      "end": 319.65999999999997,
+      "text": " So after that, we always write our state variable."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 319.68,
+      "end": 321.68,
+      "text": " Variable."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 321.68,
+      "end": 324.68,
+      "text": " So in this way, we can write the name of any variable."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 324.68,
+      "end": 326.68,
+      "text": " And then we write the name of the set and the variable."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 326.68,
+      "end": 328.68,
+      "text": " For example, if we have a counter."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 328.68,
+      "end": 330.68,
+      "text": " And we want to make our state variable."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 330.68,
+      "end": 332.68,
+      "text": " So for that, we will write a count."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 332.68,
+      "end": 334.68,
+      "text": " And we will give the name of the second method."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 334.68,
+      "end": 336.68,
+      "text": " SetCount."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 336.68,
+      "end": 338.68,
+      "text": " Is equal to"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 338.68,
+      "end": 340.68,
+      "text": " This will give us the use state."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 340.68,
+      "end": 342.68,
+      "text": " And in the use state, we will pass the initial value."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 342.68,
+      "end": 344.68,
+      "text": " Which will be equal to zero."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 344.68,
+      "end": 347.68,
+      "text": " So this count variable is now our state variable."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 347.7,
+      "end": 349.7,
+      "text": " And on the basis of its value,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 349.7,
+      "end": 351.7,
+      "text": " To trigger our events,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 351.7,
+      "end": 353.7,
+      "text": " We can now print this count here."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 353.7,
+      "end": 355.7,
+      "text": " We saved it."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 355.7,
+      "end": 357.7,
+      "text": " Refreshed it once."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 357.7,
+      "end": 361.7,
+      "text": " So this value of our count is again equal to zero."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 361.7,
+      "end": 363.7,
+      "text": " If we click on the button now,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 363.7,
+      "end": 365.7,
+      "text": " Nothing is happening today."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 365.7,
+      "end": 367.7,
+      "text": " But we will make the same method again."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 367.7,
+      "end": 369.7,
+      "text": " Let's call it increase count."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 371.7,
+      "end": 374.7,
+      "text": " And click on the button too."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 374.7,
+      "end": 376.7,
+      "text": " We will call increase."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 376.71999999999997,
+      "end": 378.71999999999997,
+      "text": " We will call increase count."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 378.71999999999997,
+      "end": 380.71999999999997,
+      "text": " Now in increase count,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 380.71999999999997,
+      "end": 382.71999999999997,
+      "text": " What can we do in increase count?"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 382.71999999999997,
+      "end": 386.71999999999997,
+      "text": " Generally, we will update our variables in the same way."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 386.71999999999997,
+      "end": 389.71999999999997,
+      "text": " We write count is equal to count plus one."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 389.71999999999997,
+      "end": 393.71999999999997,
+      "text": " And here we will get console.lock our count."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 393.71999999999997,
+      "end": 395.71999999999997,
+      "text": " Let's do this. Save."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 395.71999999999997,
+      "end": 397.71999999999997,
+      "text": " And here we refreshed it once."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 397.71999999999997,
+      "end": 399.71999999999997,
+      "text": " As soon as we have counted the increase,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 399.71999999999997,
+      "end": 401.71999999999997,
+      "text": " One is printing, two is printing, three is printing,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 401.71999999999997,
+      "end": 403.71999999999997,
+      "text": " Four is printing, five is printing."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 403.71999999999997,
+      "end": 405.71999999999997,
+      "text": " Means here things are printing in the console."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 405.74,
+      "end": 407.74,
+      "text": " There are no changes in the UI."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 407.74,
+      "end": 409.74,
+      "text": " Component is not re-rendering."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 409.74,
+      "end": 413.74,
+      "text": " Component is not re-rendering because there is nothing to change in the count."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 413.74,
+      "end": 417.74,
+      "text": " We will have to update the value of the count from our setCount method."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 417.74,
+      "end": 419.74,
+      "text": " So to update the value of the count,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 419.74,
+      "end": 422.74,
+      "text": " This time we will use our setCount method."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 422.74,
+      "end": 424.74,
+      "text": " And in setCount,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 424.74,
+      "end": 426.74,
+      "text": " We can pass the new value of our count."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 426.74,
+      "end": 428.74,
+      "text": " So what will be the new value of the count?"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 428.74,
+      "end": 430.74,
+      "text": " Count plus one will be the new value of the count."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 430.74,
+      "end": 432.74,
+      "text": " So in this way,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 432.74,
+      "end": 434.74,
+      "text": " We can pass the value."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 434.76,
+      "end": 436.76,
+      "text": " This is the count method."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 436.76,
+      "end": 438.76,
+      "text": " This actually triggers the re-render."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 438.76,
+      "end": 440.76,
+      "text": " We talked about this earlier."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 440.76,
+      "end": 442.76,
+      "text": " When the variable does not trigger our re-render,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 442.76,
+      "end": 444.76,
+      "text": " When it calls this updater function,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 444.76,
+      "end": 446.76,
+      "text": " This will trigger the re-render of our component."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 446.76,
+      "end": 449.76,
+      "text": " With the help of which our component will be re-rendered on the screen."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 449.76,
+      "end": 451.76,
+      "text": " Now here is another thing."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 451.76,
+      "end": 453.76,
+      "text": " As we have written count plus one,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 453.76,
+      "end": 455.76,
+      "text": " This is not the right way of writing our updations."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 455.76,
+      "end": 457.76,
+      "text": " In this way, we do not pass the new value."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 457.76,
+      "end": 459.76,
+      "text": " But now slowly, we will learn the right way."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 459.76,
+      "end": 462.76,
+      "text": " But for now, temporarily we are writing the count plus one."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 462.78,
+      "end": 464.78,
+      "text": " With which we will do all the work out."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 464.78,
+      "end": 466.78,
+      "text": " There will be no error."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 466.78,
+      "end": 468.78,
+      "text": " But there is a better way of writing things."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 468.78,
+      "end": 472.78,
+      "text": " So we passed the new value in the setCount updater function."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 472.78,
+      "end": 474.78,
+      "text": " And as soon as we pass the new value in the setCount,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 474.78,
+      "end": 476.78,
+      "text": " This will trigger the re-render."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 476.78,
+      "end": 478.78,
+      "text": " Let's do this once again."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 478.78,
+      "end": 480.78,
+      "text": " And refresh here."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 480.78,
+      "end": 482.78,
+      "text": " Now as soon as we count the increase,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 482.78,
+      "end": 484.78,
+      "text": " The count is increasing here."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 484.78,
+      "end": 486.78,
+      "text": " Count is equal to one."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 486.78,
+      "end": 488.78,
+      "text": " Count is two, three, four, five, six."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 488.78,
+      "end": 491.78,
+      "text": " So in this way, we have created a counter component for ourselves."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 491.79999999999995,
+      "end": 495.79999999999995,
+      "text": " Which is increasing along with clicking this button."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 495.79999999999995,
+      "end": 499.79999999999995,
+      "text": " Now with this, we will try to print our count by locking the console."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 499.79999999999995,
+      "end": 501.79999999999995,
+      "text": " If we save it and refresh,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 501.79999999999995,
+      "end": 503.79999999999995,
+      "text": " As soon as we click on increase count,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 503.79999999999995,
+      "end": 505.79999999999995,
+      "text": " The count is increased to one."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 505.79999999999995,
+      "end": 507.79999999999995,
+      "text": " But here the value is zero for us."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 507.79999999999995,
+      "end": 509.79999999999995,
+      "text": " If we do the count again,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 509.79999999999995,
+      "end": 511.79999999999995,
+      "text": " The count is increased to two."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 511.79999999999995,
+      "end": 513.8,
+      "text": " But here the value is one."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 513.8,
+      "end": 515.8,
+      "text": " If we do the count increase to three,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 515.8,
+      "end": 517.8,
+      "text": " But the value is printed for us to two."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 517.8,
+      "end": 519.8,
+      "text": " If we do the count increase to three,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 519.8199999999999,
+      "end": 521.8199999999999,
+      "text": " We will print it for us to two."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 521.8199999999999,
+      "end": 523.8199999999999,
+      "text": " We clicked on the count again."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 523.8199999999999,
+      "end": 525.8199999999999,
+      "text": " It has increased to four, but here the value is printed to three."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 525.8199999999999,
+      "end": 527.8199999999999,
+      "text": " So the reason for this thing to occur,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 527.8199999999999,
+      "end": 531.8199999999999,
+      "text": " That is the mismatch of the count and the thing that is printed here,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 531.8199999999999,
+      "end": 535.8199999999999,
+      "text": " Is because our re-render works in a different way"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 535.8199999999999,
+      "end": 537.8199999999999,
+      "text": " Using closures."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 537.8199999999999,
+      "end": 539.8199999999999,
+      "text": " Now how it works,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 539.8199999999999,
+      "end": 541.8199999999999,
+      "text": " We will read it after a few topics,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 541.8199999999999,
+      "end": 543.8199999999999,
+      "text": " But it is not confusing."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 543.8199999999999,
+      "end": 545.8199999999999,
+      "text": " This is the default functionality,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 545.8199999999999,
+      "end": 547.8199999999999,
+      "text": " The re-render works in the same way."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 547.84,
+      "end": 549.84,
+      "text": " And you are getting a mismatch in this count,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 549.84,
+      "end": 551.84,
+      "text": " In the new set updated count and in this count."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 551.84,
+      "end": 553.84,
+      "text": " So there is no tension in that,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 553.84,
+      "end": 555.84,
+      "text": " Re-act works in the same way."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 555.84,
+      "end": 557.84,
+      "text": " For now, we will console it like this,"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 557.84,
+      "end": 559.84,
+      "text": " We will not confuse ourselves."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 559.84,
+      "end": 561.84,
+      "text": " We will just check if we can create"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 561.84,
+      "end": 563.84,
+      "text": " A new state variable."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 563.84,
+      "end": 565.84,
+      "text": " Can we execute that state variable"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 565.84,
+      "end": 567.84,
+      "text": " By clicking on a button."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 567.84,
+      "end": 569.84,
+      "text": " And is that executed right value"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 569.84,
+      "end": 571.84,
+      "text": " For us, it is re-rendered and"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 571.84,
+      "end": 573.84,
+      "text": " It is coming up on our screen."
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 573.84,
+      "end": 575.84,
+      "text": " For states, if we understand"
+    },
+    {
+      "number": "06",
+      "title": "useState( ).mp3",
+      "start": 575.84,
+      "end": 577.86,
+      "text": " So many things, that is good enough."
+    }
+  ],
+  "text": " Now we are going to talk about our first hook which is called UState. UState is a React hook. We had already learnt that it is a function that helps us deal with states. So UState is a React hook that lets you add a state variable to your component. What are state variables? State variables are variables in which if something changes, then in that case we have to re-render the React component. If we want to change something in UI with the help of which if we want to change something in DOM, then we use our state variables for all those changes, not other normal variables or props. So whenever we need a change in something on an event or in something else in our UI, then we will always use state variables. Now to use UState, we can go to the documentation. And in the documentation of React.dev, if we go to UState, then basically to use UState, we have to write this line. So the method UState is, first of all we pass an initial state. This initial state is our initial value with which we have our state variable. For example, if we take an example here, we want as soon as it changes to the count, this component, if it re-renders, if its value changes, then our state variable will be the count variable here. And we initialized the count variable with which value, we initialized the count variable with zero value. So here when we write UState with our count variable, we will pass zero in the initialized state. And our UState method returns an array in which there are always two elements. In fact, we can read about it in the documentation also. This is our method UState. It returns an array with exactly two values. We always have two values, neither one nor three. The first value is our current state. That is, during the first render, it will match the initial state you have passed. Current state means state, that is, basically our variable, which we will treat as a state variable. So in the beginning, if we pass the initial value zero, and here if our variable is count, which is our state variable, then the count value will also be equal to zero. After that, it will be updated. So the second thing is that in this array, it is a set function that lets you update the state to a different value and trigger a re-render. That is, this is the method in which our state variable's value is updated. And when this method is called, then the state variable's value is updated and then the re-render is the entire component. So this is actually our rule that is triggering our re-render. And this method is called our updater function. Because it is used to update our state variable. Now let's see how we can actually use the use state to build our counter. Let's refresh it and come here from the beginning. Now we know that this thing will not work out now. Neither will it work out the count for us now. We will also have to use the state. So we will call the use state method. And in the use state method, we will pass our initial state which is going to be zero. And this use state method will return an array. So let whatever is our array, it will return an array for us. And in the beginning, we will just print the value of this array and see what will be printed in this array. Also, another note that we cannot directly use the use state. We have to import it from the react. So we will import the use state from react. So automatically, we are filling in the vscode for us. And we will pass our initial value zero in the use state for now. We will return the array and print its value. Let's save it. There is some error. Count is not defined. The count variable is not there now. So let's refresh it. Increment count is also not defined. Let's remove it. We are working out all the things. And in our app.jsx or main.jsx, We will also remove the react strict mode for now. So here, this thing is being printed for us. Now this is our array which is returned by the use state. In the array, there is an initial value. And the second parameter is a function. There are some details internally in the function. But we have verified that the first thing is a state for us. And the second thing is a function for us. Now in the start, the same value will be there in this state. Which we will pass as an initial state. If I pass 10 here. And if I see here, In the console again, the initial state is equal to the initial value. Which is equal to 10. Now here, what do we do in the array? Generally, we deconstruct the array. To deconstruct the array, we call the state variable the element of the zeroth index. This is called a state variable. And the second thing is our method. Which we always start with the set. So after that, we always write our state variable. Variable. So in this way, we can write the name of any variable. And then we write the name of the set and the variable. For example, if we have a counter. And we want to make our state variable. So for that, we will write a count. And we will give the name of the second method. SetCount. Is equal to This will give us the use state. And in the use state, we will pass the initial value. Which will be equal to zero. So this count variable is now our state variable. And on the basis of its value, To trigger our events, We can now print this count here. We saved it. Refreshed it once. So this value of our count is again equal to zero. If we click on the button now, Nothing is happening today. But we will make the same method again. Let's call it increase count. And click on the button too. We will call increase. We will call increase count. Now in increase count, What can we do in increase count? Generally, we will update our variables in the same way. We write count is equal to count plus one. And here we will get console.lock our count. Let's do this. Save. And here we refreshed it once. As soon as we have counted the increase, One is printing, two is printing, three is printing, Four is printing, five is printing. Means here things are printing in the console. There are no changes in the UI. Component is not re-rendering. Component is not re-rendering because there is nothing to change in the count. We will have to update the value of the count from our setCount method. So to update the value of the count, This time we will use our setCount method. And in setCount, We can pass the new value of our count. So what will be the new value of the count? Count plus one will be the new value of the count. So in this way, We can pass the value. This is the count method. This actually triggers the re-render. We talked about this earlier. When the variable does not trigger our re-render, When it calls this updater function, This will trigger the re-render of our component. With the help of which our component will be re-rendered on the screen. Now here is another thing. As we have written count plus one, This is not the right way of writing our updations. In this way, we do not pass the new value. But now slowly, we will learn the right way. But for now, temporarily we are writing the count plus one. With which we will do all the work out. There will be no error. But there is a better way of writing things. So we passed the new value in the setCount updater function. And as soon as we pass the new value in the setCount, This will trigger the re-render. Let's do this once again. And refresh here. Now as soon as we count the increase, The count is increasing here. Count is equal to one. Count is two, three, four, five, six. So in this way, we have created a counter component for ourselves. Which is increasing along with clicking this button. Now with this, we will try to print our count by locking the console. If we save it and refresh, As soon as we click on increase count, The count is increased to one. But here the value is zero for us. If we do the count again, The count is increased to two. But here the value is one. If we do the count increase to three, But the value is printed for us to two. If we do the count increase to three, We will print it for us to two. We clicked on the count again. It has increased to four, but here the value is printed to three. So the reason for this thing to occur, That is the mismatch of the count and the thing that is printed here, Is because our re-render works in a different way Using closures. Now how it works, We will read it after a few topics, But it is not confusing. This is the default functionality, The re-render works in the same way. And you are getting a mismatch in this count, In the new set updated count and in this count. So there is no tension in that, Re-act works in the same way. For now, we will console it like this, We will not confuse ourselves. We will just check if we can create A new state variable. Can we execute that state variable By clicking on a button. And is that executed right value For us, it is re-rendered and It is coming up on our screen. For states, if we understand So many things, that is good enough."
+}

@@ -1,0 +1,1027 @@
+{
+  "chunks": [
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 0.0,
+      "end": 5.68,
+      "text": " Next thing we are going to learn is how to pass string values in props"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 5.68,
+      "end": 8.08,
+      "text": " how to pass numbers"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 8.08,
+      "end": 13.02,
+      "text": " Now let's see how to pass items in a collective group"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 13.02,
+      "end": 15.02,
+      "text": " in which we have major arrays"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 15.02,
+      "end": 18.02,
+      "text": " So if we have to pass an array in a prop"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 18.02,
+      "end": 21.92,
+      "text": " For example, we have to define some features for our product"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 21.92,
+      "end": 24.42,
+      "text": " Like here we have a product in which"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 24.42,
+      "end": 26.8,
+      "text": " we will remove the default of price for now"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 26.8,
+      "end": 31.060000000000002,
+      "text": " We want to have some features defined in the product"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 31.060000000000002,
+      "end": 33.56,
+      "text": " So in product tab what we can do is"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 33.56,
+      "end": 37.1,
+      "text": " we will pass 1 in price"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 37.1,
+      "end": 42.480000000000004,
+      "text": " What we can do is in product tab I can create an array called features"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 42.480000000000004,
+      "end": 45.480000000000004,
+      "text": " and in features we can define the features of a product"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 45.480000000000004,
+      "end": 49.32,
+      "text": " In features we can write that this is a high tech product"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 49.32,
+      "end": 51.82,
+      "text": " we can write durable"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 51.82,
+      "end": 54.620000000000005,
+      "text": " we can write fast"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 55.58,
+      "end": 60.519999999999996,
+      "text": " So like this we have an array of 3 features which we have defined"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 60.519999999999996,
+      "end": 63.059999999999995,
+      "text": " Now if we have to pass this features array"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 63.059999999999995,
+      "end": 65.72,
+      "text": " For that we will name our array"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 65.72,
+      "end": 66.72,
+      "text": " features is equal to"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 66.72,
+      "end": 70.56,
+      "text": " and then in curly braces we will write our array"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 70.56,
+      "end": 74.16,
+      "text": " So in curly braces we are going to pass on our features array"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 74.16,
+      "end": 76.66,
+      "text": " If we want we can name this array differently"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 76.66,
+      "end": 81.24,
+      "text": " We can name it options and here we can pass the options"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 81.36,
+      "end": 83.69999999999999,
+      "text": " So like this there will be no difference"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 83.69999999999999,
+      "end": 85.36,
+      "text": " but if you want you can give the same name"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 85.36,
+      "end": 86.36,
+      "text": " Let's save this"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 86.36,
+      "end": 87.46,
+      "text": " and here what we will do is"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 87.46,
+      "end": 89.46,
+      "text": " first we will lock console.log"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 89.46,
+      "end": 92.8,
+      "text": " and try to print our features"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 92.8,
+      "end": 94.8,
+      "text": " Let's save it"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 94.8,
+      "end": 97.84,
+      "text": " and here we will inspect"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 97.84,
+      "end": 100.34,
+      "text": " So in console window we have an array printed"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 100.34,
+      "end": 102.84,
+      "text": " and in this array we have high tech, durable, fast"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 102.84,
+      "end": 104.34,
+      "text": " all these things are available"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 104.34,
+      "end": 107.47999999999999,
+      "text": " So basically when we passed our array"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 107.56,
+      "end": 111.26,
+      "text": " So this is how we will pass our array in curly braces"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 111.26,
+      "end": 115.06,
+      "text": " and when we will try to access and print it in product"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 115.06,
+      "end": 117.86,
+      "text": " So for now we can make a paragraph"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 117.86,
+      "end": 122.94,
+      "text": " and in paragraph we can try to print our features array in curly braces"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 122.94,
+      "end": 124.94,
+      "text": " Save and refresh"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 124.94,
+      "end": 126.94,
+      "text": " So for now what is written here"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 126.94,
+      "end": 129.94,
+      "text": " High tech, durable, fast"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 129.94,
+      "end": 131.94,
+      "text": " and one thing you will notice is"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 131.94,
+      "end": 134.94,
+      "text": " generally if we send something on a normal HTML page"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 134.94,
+      "end": 137.94,
+      "text": " or if we send something from JavaScript and get it printed"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 137.94,
+      "end": 139.94,
+      "text": " So it doesn't get printed like this"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 139.94,
+      "end": 141.94,
+      "text": " Generally when things are printed"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 141.94,
+      "end": 145.44,
+      "text": " then it gets printed on a comma separated array on our page"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 145.44,
+      "end": 147.44,
+      "text": " but here there is no comma"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 147.44,
+      "end": 149.44,
+      "text": " So simply what is happening is"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 149.44,
+      "end": 151.44,
+      "text": " when any component is rendered in JSX"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 151.44,
+      "end": 156.44,
+      "text": " So in that if there is any array or object in any prop"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 156.44,
+      "end": 157.44,
+      "text": " So what happens is"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 157.44,
+      "end": 159.44,
+      "text": " individual item is extracted"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 159.44,
+      "end": 161.44,
+      "text": " and then it is printed"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 161.44,
+      "end": 163.44,
+      "text": " So high tech, the item on 0th index"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 163.44,
+      "end": 165.44,
+      "text": " is added in paragraph"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 165.44,
+      "end": 167.44,
+      "text": " and then the second item is picked"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 167.44,
+      "end": 169.44,
+      "text": " and then it is added in paragraph"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 169.44,
+      "end": 170.44,
+      "text": " i.e. durable is added"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 170.44,
+      "end": 171.44,
+      "text": " then the third item is picked"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 171.44,
+      "end": 173.44,
+      "text": " and then it is added in paragraph"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 173.44,
+      "end": 176.44,
+      "text": " So in this way when we use our props in JSX"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 176.44,
+      "end": 178.44,
+      "text": " and they get it printed directly"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 178.44,
+      "end": 180.44,
+      "text": " So one individual item is picked"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 180.44,
+      "end": 182.44,
+      "text": " and one individual item is sticked"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 182.44,
+      "end": 184.44,
+      "text": " So you will not get comma separated values"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 184.44,
+      "end": 186.44,
+      "text": " if you will print directly any array"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 186.44,
+      "end": 190.44,
+      "text": " Along with that we can see something similar in objects"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 190.44,
+      "end": 192.44,
+      "text": " So for objects"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 192.44,
+      "end": 195.44,
+      "text": " let's call it options2"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 195.44,
+      "end": 197.44,
+      "text": " In options2"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 197.44,
+      "end": 201.44,
+      "text": " we have high tech in A"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 203.44,
+      "end": 205.44,
+      "text": " In B we have something"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 205.44,
+      "end": 207.44,
+      "text": " we can keep same values"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 207.44,
+      "end": 210.44,
+      "text": " and in C we have fast"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 210.44,
+      "end": 212.44,
+      "text": " Let's save it"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 212.44,
+      "end": 214.44,
+      "text": " So here we can call it features2"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 214.44,
+      "end": 216.44,
+      "text": " is equal to"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 216.44,
+      "end": 218.44,
+      "text": " Now when we pass objects here"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 218.44,
+      "end": 220.44,
+      "text": " we will write in curly braces"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 220.44,
+      "end": 222.44,
+      "text": " and we can write name of our object"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 222.44,
+      "end": 224.44,
+      "text": " So this is our options2"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 224.44,
+      "end": 226.44,
+      "text": " Now to print options2"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 226.44,
+      "end": 228.44,
+      "text": " we can simply do this"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 228.44,
+      "end": 230.44,
+      "text": " We will make next paragraph"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 230.44,
+      "end": 232.44,
+      "text": " in which we will print features2"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 232.44,
+      "end": 234.44,
+      "text": " and we will write here"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 234.44,
+      "end": 236.44,
+      "text": " features2"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 236.44,
+      "end": 238.44,
+      "text": " By the way, these examples we are doing"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 238.44,
+      "end": 240.44,
+      "text": " are very basic examples"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 240.44,
+      "end": 242.44,
+      "text": " Practically when we use props"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 242.44,
+      "end": 244.44,
+      "text": " or when we use other things"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 244.44,
+      "end": 246.44,
+      "text": " then we get little extra layer of complexity"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 246.44,
+      "end": 248.44,
+      "text": " But because we are in beginner stage"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 248.44,
+      "end": 250.44,
+      "text": " and this is our second lecture"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 250.44,
+      "end": 252.44,
+      "text": " in which we are learning things"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 252.44,
+      "end": 254.44,
+      "text": " So there is nothing to worry"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 254.44,
+      "end": 256.44,
+      "text": " if we are taking extra time to learn some concepts"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 256.44,
+      "end": 258.44,
+      "text": " because we are trying to learn something new"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 258.44,
+      "end": 260.44,
+      "text": " So here our object"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 260.44,
+      "end": 262.44,
+      "text": " we will not be able to render it directly"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 262.44,
+      "end": 264.44,
+      "text": " but we can render individual key"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 264.44,
+      "end": 266.44,
+      "text": " For example, I can access the individual key"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 266.44,
+      "end": 268.44,
+      "text": " and we can render it"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 268.44,
+      "end": 270.44,
+      "text": " If we want we can change our key"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 270.44,
+      "end": 272.44,
+      "text": " and we can render second key"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 272.44,
+      "end": 274.44,
+      "text": " So in case of objects, we don't pick individual item"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 274.44,
+      "end": 276.44,
+      "text": " Individual item is picked in case of arrays"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 276.44,
+      "end": 278.44,
+      "text": " Here we can access it through keys"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 278.44,
+      "end": 280.44,
+      "text": " Now this is the way"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 280.44,
+      "end": 282.44,
+      "text": " how we are passing our object"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 282.44,
+      "end": 284.44,
+      "text": " So we defined it in a different variable"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 284.44,
+      "end": 286.44,
+      "text": " and then we passed it"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 286.44,
+      "end": 288.44,
+      "text": " But here"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 288.44,
+      "end": 290.44,
+      "text": " there is another way"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 290.44,
+      "end": 292.44,
+      "text": " which you will see frequently"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 292.44,
+      "end": 294.44,
+      "text": " which is that we are directly passing our features"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 294.44,
+      "end": 296.44,
+      "text": " here"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 296.44,
+      "end": 298.44,
+      "text": " For example, this options array"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 298.44,
+      "end": 300.44,
+      "text": " instead of this we will write our internal array"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 300.44,
+      "end": 302.44,
+      "text": " by putting square brackets"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 302.44,
+      "end": 304.44,
+      "text": " Here we will pass high tech"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 304.44,
+      "end": 306.44,
+      "text": " and let's pass durable"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 306.44,
+      "end": 308.44,
+      "text": " and let's save it"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 308.44,
+      "end": 310.44,
+      "text": " and refresh"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 310.44,
+      "end": 312.44,
+      "text": " So now we have high tech and durable"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 312.44,
+      "end": 314.44,
+      "text": " So in this way, it is possible to pass an array directly"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 314.44,
+      "end": 316.44,
+      "text": " and in the same way, we can pass an object directly"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 316.44,
+      "end": 318.44,
+      "text": " and when we pass an object"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 318.44,
+      "end": 320.44,
+      "text": " we have to notice one thing"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 320.44,
+      "end": 322.44,
+      "text": " that we write another curly braces"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 322.44,
+      "end": 324.44,
+      "text": " for our object"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 324.44,
+      "end": 326.44,
+      "text": " and here we can write"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 326.44,
+      "end": 328.44,
+      "text": " A is going to be high tech"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 328.44,
+      "end": 330.44,
+      "text": " like this"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 330.44,
+      "end": 332.44,
+      "text": " and here we have to notice"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 332.44,
+      "end": 334.44,
+      "text": " that in features"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 334.44,
+      "end": 336.44,
+      "text": " this is our syntax"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 336.44,
+      "end": 338.44,
+      "text": " and in this, this is our complete object"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 338.44,
+      "end": 340.44,
+      "text": " So this syntax can look a little different"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 340.44,
+      "end": 342.44,
+      "text": " by seeing how curly braces"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 342.44,
+      "end": 344.44,
+      "text": " are written in curly braces"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 344.44,
+      "end": 346.44,
+      "text": " But if we want to pass an object"
+    },
+    {
+      "number": "02",
+      "title": "Passing Arrays to Props.mp3",
+      "start": 346.44,
+      "end": 348.44,
+      "text": " then we can pass our object directly"
+    }
+  ],
+  "text": " Next thing we are going to learn is how to pass string values in props how to pass numbers Now let's see how to pass items in a collective group in which we have major arrays So if we have to pass an array in a prop For example, we have to define some features for our product Like here we have a product in which we will remove the default of price for now We want to have some features defined in the product So in product tab what we can do is we will pass 1 in price What we can do is in product tab I can create an array called features and in features we can define the features of a product In features we can write that this is a high tech product we can write durable we can write fast So like this we have an array of 3 features which we have defined Now if we have to pass this features array For that we will name our array features is equal to and then in curly braces we will write our array So in curly braces we are going to pass on our features array If we want we can name this array differently We can name it options and here we can pass the options So like this there will be no difference but if you want you can give the same name Let's save this and here what we will do is first we will lock console.log and try to print our features Let's save it and here we will inspect So in console window we have an array printed and in this array we have high tech, durable, fast all these things are available So basically when we passed our array So this is how we will pass our array in curly braces and when we will try to access and print it in product So for now we can make a paragraph and in paragraph we can try to print our features array in curly braces Save and refresh So for now what is written here High tech, durable, fast and one thing you will notice is generally if we send something on a normal HTML page or if we send something from JavaScript and get it printed So it doesn't get printed like this Generally when things are printed then it gets printed on a comma separated array on our page but here there is no comma So simply what is happening is when any component is rendered in JSX So in that if there is any array or object in any prop So what happens is individual item is extracted and then it is printed So high tech, the item on 0th index is added in paragraph and then the second item is picked and then it is added in paragraph i.e. durable is added then the third item is picked and then it is added in paragraph So in this way when we use our props in JSX and they get it printed directly So one individual item is picked and one individual item is sticked So you will not get comma separated values if you will print directly any array Along with that we can see something similar in objects So for objects let's call it options2 In options2 we have high tech in A In B we have something we can keep same values and in C we have fast Let's save it So here we can call it features2 is equal to Now when we pass objects here we will write in curly braces and we can write name of our object So this is our options2 Now to print options2 we can simply do this We will make next paragraph in which we will print features2 and we will write here features2 By the way, these examples we are doing are very basic examples Practically when we use props or when we use other things then we get little extra layer of complexity But because we are in beginner stage and this is our second lecture in which we are learning things So there is nothing to worry if we are taking extra time to learn some concepts because we are trying to learn something new So here our object we will not be able to render it directly but we can render individual key For example, I can access the individual key and we can render it If we want we can change our key and we can render second key So in case of objects, we don't pick individual item Individual item is picked in case of arrays Here we can access it through keys Now this is the way how we are passing our object So we defined it in a different variable and then we passed it But here there is another way which you will see frequently which is that we are directly passing our features here For example, this options array instead of this we will write our internal array by putting square brackets Here we will pass high tech and let's pass durable and let's save it and refresh So now we have high tech and durable So in this way, it is possible to pass an array directly and in the same way, we can pass an object directly and when we pass an object we have to notice one thing that we write another curly braces for our object and here we can write A is going to be high tech like this and here we have to notice that in features this is our syntax and in this, this is our complete object So this syntax can look a little different by seeing how curly braces are written in curly braces But if we want to pass an object then we can pass our object directly"
+}

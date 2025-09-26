@@ -1,0 +1,600 @@
+{
+  "chunks": [
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 0.0,
+      "end": 2.72,
+      "text": " So next we are going to talk about JSX"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 2.72,
+      "end": 6.1000000000000005,
+      "text": " whose full form is JavaScript Extension Syntax"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 6.1000000000000005,
+      "end": 10.72,
+      "text": " So this is a syntax whose function is to combine JavaScript with HTML"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 10.72,
+      "end": 14.4,
+      "text": " So it lets us write HTML directly inside JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 14.4,
+      "end": 20.44,
+      "text": " Now in this, this JSX syntax cannot be directly converted into JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 20.44,
+      "end": 25.36,
+      "text": " It's not like you can write JSX in a JavaScript file in a normal project"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 25.36,
+      "end": 26.88,
+      "text": " and our code will run"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 27.119999999999997,
+      "end": 30.16,
+      "text": " So JSX is not real JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 30.16,
+      "end": 32.0,
+      "text": " It's not the real JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 32.0,
+      "end": 34.44,
+      "text": " The syntax we have learnt a lot about JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 34.44,
+      "end": 36.76,
+      "text": " all that syntax is not followed here"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 36.76,
+      "end": 41.6,
+      "text": " But what JSX does is, whenever code is written in JSX form in React"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 41.6,
+      "end": 44.72,
+      "text": " it is internally converted to JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 44.72,
+      "end": 47.2,
+      "text": " That code is transpiled"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 47.2,
+      "end": 51.56,
+      "text": " And that code has a special tool which transpiles it, which is called Babel"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 51.56,
+      "end": 55.2,
+      "text": " Babel is a tool which transpiles JSX code"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 55.2,
+      "end": 57.68,
+      "text": " It converts it to pure JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 57.68,
+      "end": 60.68000000000001,
+      "text": " So whenever we write JSX code in React"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 60.68000000000001,
+      "end": 62.68000000000001,
+      "text": " First that code is in JSX"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 62.68000000000001,
+      "end": 66.08,
+      "text": " After that Babel is used as an internal tool"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 66.08,
+      "end": 68.08,
+      "text": " which converts it to JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 68.08,
+      "end": 72.32000000000001,
+      "text": " And finally, the rendering on the page, or the logic of our page"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 72.32000000000001,
+      "end": 76.0,
+      "text": " or whatever things are displayed on our browser"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 76.0,
+      "end": 79.60000000000001,
+      "text": " all that is displayed with the help of this JavaScript code"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 79.60000000000001,
+      "end": 82.68,
+      "text": " Now as a beginner, the first question that can hit our mind is"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 82.68,
+      "end": 85.04,
+      "text": " that when we had to display JavaScript on the browser"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 85.12,
+      "end": 86.64,
+      "text": " Why did we write code in JSX?"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 86.64,
+      "end": 88.64,
+      "text": " Babel is transpiling it separately"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 88.64,
+      "end": 91.44000000000001,
+      "text": " and converting it separately, and then converting it to JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 91.44000000000001,
+      "end": 93.44000000000001,
+      "text": " The simplest answer to this is that"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 93.44000000000001,
+      "end": 95.44000000000001,
+      "text": " if we learn JSX once"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 95.44000000000001,
+      "end": 98.64,
+      "text": " like we will cover JSX in a couple of classes"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 98.64,
+      "end": 102.0,
+      "text": " So it is very easy to learn JSX and implement it"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 102.0,
+      "end": 105.12,
+      "text": " When we start writing things component-wise in JSX"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 105.12,
+      "end": 106.64000000000001,
+      "text": " it becomes more readable"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 106.64000000000001,
+      "end": 110.56,
+      "text": " and it becomes easier to write as compared to normal JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 110.56,
+      "end": 113.68,
+      "text": " to render the same amount of UI components"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 113.76,
+      "end": 115.36000000000001,
+      "text": " But this entire conversion"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 115.36000000000001,
+      "end": 117.36000000000001,
+      "text": " the entire conversion from JSX to JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 117.36000000000001,
+      "end": 119.76,
+      "text": " the entire conversion that Babel does internally"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 119.76,
+      "end": 121.36000000000001,
+      "text": " is done behind the scenes"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 121.36000000000001,
+      "end": 123.36000000000001,
+      "text": " We will never see this happening"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 123.36000000000001,
+      "end": 125.36000000000001,
+      "text": " It is done internally by itself"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 125.36000000000001,
+      "end": 127.36000000000001,
+      "text": " When we set up React in our computer"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 127.36000000000001,
+      "end": 130.48000000000002,
+      "text": " then our internal tools will automatically do this conversion"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 130.48000000000002,
+      "end": 132.48000000000002,
+      "text": " We will not have to write any code separately"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 132.48000000000002,
+      "end": 134.48000000000002,
+      "text": " We will not have to do anything separately"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 134.48000000000002,
+      "end": 136.48000000000002,
+      "text": " If we want, we can also go to the Babel page"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 136.48000000000002,
+      "end": 140.48000000000002,
+      "text": " which is babeljs.io"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 140.48000000000002,
+      "end": 142.48000000000002,
+      "text": " If we go here"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 142.48,
+      "end": 144.48,
+      "text": " If we click on try it out"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 144.48,
+      "end": 148.48,
+      "text": " then some code like this will open for us"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 148.48,
+      "end": 150.48,
+      "text": " Now in the sandbox"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 150.48,
+      "end": 152.48,
+      "text": " which we saw earlier as the code for the app"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 152.48,
+      "end": 154.48,
+      "text": " Let's copy this"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 154.48,
+      "end": 156.48,
+      "text": " and let's paste it here"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 156.48,
+      "end": 158.48,
+      "text": " So this was the code for React"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 158.48,
+      "end": 160.48,
+      "text": " which we wrote in JSX"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 160.48,
+      "end": 164.48,
+      "text": " So Babel internally changes it in this format"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 164.48,
+      "end": 166.48,
+      "text": " And this format is our pure JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 166.48,
+      "end": 168.48,
+      "text": " In this, you will see all the JavaScript things"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 168.48,
+      "end": 170.48,
+      "text": " Function, MyButton"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 170.48,
+      "end": 172.48,
+      "text": " What is returning?"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 172.48,
+      "end": 174.48,
+      "text": " Some call is being done with the name JSX"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 174.48,
+      "end": 176.48,
+      "text": " in which a button is being passed as a string"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 176.48,
+      "end": 178.48,
+      "text": " After that, an object is being passed"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 178.48,
+      "end": 180.48,
+      "text": " in which it is written in children"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 180.48,
+      "end": 182.48,
+      "text": " After that, we have another function"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 182.48,
+      "end": 184.48,
+      "text": " with the name MyApp"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 184.48,
+      "end": 186.48,
+      "text": " It is also returning something by saying JSXS"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 186.48,
+      "end": 188.48,
+      "text": " in which a div is being created"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 188.48,
+      "end": 190.48,
+      "text": " An H1 element is being created in the children of the div"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 190.48,
+      "end": 192.48,
+      "text": " So this is how Babel works"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 192.48,
+      "end": 196.48,
+      "text": " So Babel basically converts our pure JSX code"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 196.48,
+      "end": 198.48,
+      "text": " into normal JavaScript"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 198.48,
+      "end": 202.48,
+      "text": " But this conversion will be done automatically by Babel"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 202.48,
+      "end": 204.48,
+      "text": " We don't need to partake in this"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 204.48,
+      "end": 206.48,
+      "text": " So this was the basics of how React works"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 206.48,
+      "end": 208.48,
+      "text": " and in which format the code is written"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 208.48,
+      "end": 210.48,
+      "text": " Now we are finally going to set up React"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 210.48,
+      "end": 212.48,
+      "text": " on our local machine"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 212.48,
+      "end": 214.48,
+      "text": " We will start creating a React project"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 214.48,
+      "end": 216.48,
+      "text": " a basic app"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 216.48,
+      "end": 218.48,
+      "text": " And with that, we will slowly understand"
+    },
+    {
+      "number": "02",
+      "title": "What is JSX_.mp3",
+      "start": 218.48,
+      "end": 220.48,
+      "text": " how we can build our components"
+    }
+  ],
+  "text": " So next we are going to talk about JSX whose full form is JavaScript Extension Syntax So this is a syntax whose function is to combine JavaScript with HTML So it lets us write HTML directly inside JavaScript Now in this, this JSX syntax cannot be directly converted into JavaScript It's not like you can write JSX in a JavaScript file in a normal project and our code will run So JSX is not real JavaScript It's not the real JavaScript The syntax we have learnt a lot about JavaScript all that syntax is not followed here But what JSX does is, whenever code is written in JSX form in React it is internally converted to JavaScript That code is transpiled And that code has a special tool which transpiles it, which is called Babel Babel is a tool which transpiles JSX code It converts it to pure JavaScript So whenever we write JSX code in React First that code is in JSX After that Babel is used as an internal tool which converts it to JavaScript And finally, the rendering on the page, or the logic of our page or whatever things are displayed on our browser all that is displayed with the help of this JavaScript code Now as a beginner, the first question that can hit our mind is that when we had to display JavaScript on the browser Why did we write code in JSX? Babel is transpiling it separately and converting it separately, and then converting it to JavaScript The simplest answer to this is that if we learn JSX once like we will cover JSX in a couple of classes So it is very easy to learn JSX and implement it When we start writing things component-wise in JSX it becomes more readable and it becomes easier to write as compared to normal JavaScript to render the same amount of UI components But this entire conversion the entire conversion from JSX to JavaScript the entire conversion that Babel does internally is done behind the scenes We will never see this happening It is done internally by itself When we set up React in our computer then our internal tools will automatically do this conversion We will not have to write any code separately We will not have to do anything separately If we want, we can also go to the Babel page which is babeljs.io If we go here If we click on try it out then some code like this will open for us Now in the sandbox which we saw earlier as the code for the app Let's copy this and let's paste it here So this was the code for React which we wrote in JSX So Babel internally changes it in this format And this format is our pure JavaScript In this, you will see all the JavaScript things Function, MyButton What is returning? Some call is being done with the name JSX in which a button is being passed as a string After that, an object is being passed in which it is written in children After that, we have another function with the name MyApp It is also returning something by saying JSXS in which a div is being created An H1 element is being created in the children of the div So this is how Babel works So Babel basically converts our pure JSX code into normal JavaScript But this conversion will be done automatically by Babel We don't need to partake in this So this was the basics of how React works and in which format the code is written Now we are finally going to set up React on our local machine We will start creating a React project a basic app And with that, we will slowly understand how we can build our components"
+}

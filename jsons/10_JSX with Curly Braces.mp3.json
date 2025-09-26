@@ -1,0 +1,313 @@
+{
+  "chunks": [
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 0.0,
+      "end": 3.58,
+      "text": " Next we will talk about JSX with curly braces."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 3.58,
+      "end": 8.1,
+      "text": " Basically, we use our curly braces wherever we are."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 8.1,
+      "end": 10.8,
+      "text": " So, in curly braces, whatever code we write,"
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 10.8,
+      "end": 13.8,
+      "text": " that code is treated like a pure JavaScript."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 13.8,
+      "end": 17.8,
+      "text": " Then we don't need to write JSX, we can write a pure JavaScript."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 17.8,
+      "end": 20.8,
+      "text": " You can also read up about it in the documentation."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 20.8,
+      "end": 24.3,
+      "text": " Here, JavaScript in JSX with curly braces."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 24.3,
+      "end": 29.3,
+      "text": " So basically, when we want to add a little JavaScript logic in our code,"
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 29.3,
+      "end": 33.3,
+      "text": " or add references, add dynamic properties,"
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 33.3,
+      "end": 38.3,
+      "text": " in that case, we can use curly braces in JSX to open a window to JavaScript."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 38.3,
+      "end": 41.3,
+      "text": " So basically, whatever part we have in the curly braces,"
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 41.3,
+      "end": 45.3,
+      "text": " that will be our window in which we can write our pure JavaScript."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 45.3,
+      "end": 47.3,
+      "text": " The meaning of writing pure JavaScript is,"
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 47.3,
+      "end": 53.3,
+      "text": " the title of the word, we can decide what we have to return in our div."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 53.3,
+      "end": 56.3,
+      "text": " We have to return a paragraph in the div."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 56.3,
+      "end": 60.3,
+      "text": " And the paragraph in it is written as 2 multiplied by 2 is equal to 2."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 60.3,
+      "end": 62.3,
+      "text": " And we have to do this calculation."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 62.3,
+      "end": 64.3,
+      "text": " Now, JSX will not do this calculation by default."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 64.3,
+      "end": 67.3,
+      "text": " So, we have to do this calculation in the form of JavaScript."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 67.3,
+      "end": 72.3,
+      "text": " So, we can save this expression if we want to treat it like JavaScript."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 72.3,
+      "end": 74.3,
+      "text": " And now, we will go to our page."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 74.3,
+      "end": 75.3,
+      "text": " So, here we have the print."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 75.3,
+      "end": 77.3,
+      "text": " 2 into 2 is equal to 4."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 77.3,
+      "end": 79.3,
+      "text": " So, here 2 into 2 was not printed."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 79.3,
+      "end": 80.3,
+      "text": " What was printed here?"
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 80.3,
+      "end": 85.3,
+      "text": " It was treated like JavaScript and evaluated the value of this expression."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 85.3,
+      "end": 89.3,
+      "text": " Or for example, if we have to use some variables in our code."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 89.3,
+      "end": 93.3,
+      "text": " The meaning of the word variables is that we have made a variable here."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 93.3,
+      "end": 99.3,
+      "text": " Let, we can call it name is equal to Shraddha."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 99.3,
+      "end": 101.3,
+      "text": " We have saved it."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 101.3,
+      "end": 105.3,
+      "text": " And here, we want to print our variable in this paragraph."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 105.3,
+      "end": 109.3,
+      "text": " So, here we can write high and then our curly braces."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 109.3,
+      "end": 110.3,
+      "text": " And here we can write name."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 110.3,
+      "end": 111.3,
+      "text": " Let's do this. Save."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 111.3,
+      "end": 114.3,
+      "text": " So, here we have high Shraddha, high Shraddha, high Shraddha."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 114.3,
+      "end": 118.3,
+      "text": " Now, if we want to change the value of this name."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 118.3,
+      "end": 123.3,
+      "text": " To change something in this, we can write dot to uppercase."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 123.3,
+      "end": 127.3,
+      "text": " So, uppercase is safe."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 127.3,
+      "end": 131.3,
+      "text": " So, here the name is printed in the uppercase."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 131.3,
+      "end": 135.3,
+      "text": " So, basically, if we have to associate some methods with variables,"
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 135.3,
+      "end": 137.3,
+      "text": " then we will not be able to do them normally in JSX."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 137.3,
+      "end": 139.3,
+      "text": " But yes, this window is the curly braces."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 139.3,
+      "end": 142.3,
+      "text": " In this, we can perform all the operations."
+    },
+    {
+      "number": "10",
+      "title": "JSX with Curly Braces.mp3",
+      "start": 142.3,
+      "end": 147.3,
+      "text": " So, basically, these curly braces allow us to write a pure JavaScript in our code."
+    }
+  ],
+  "text": " Next we will talk about JSX with curly braces. Basically, we use our curly braces wherever we are. So, in curly braces, whatever code we write, that code is treated like a pure JavaScript. Then we don't need to write JSX, we can write a pure JavaScript. You can also read up about it in the documentation. Here, JavaScript in JSX with curly braces. So basically, when we want to add a little JavaScript logic in our code, or add references, add dynamic properties, in that case, we can use curly braces in JSX to open a window to JavaScript. So basically, whatever part we have in the curly braces, that will be our window in which we can write our pure JavaScript. The meaning of writing pure JavaScript is, the title of the word, we can decide what we have to return in our div. We have to return a paragraph in the div. And the paragraph in it is written as 2 multiplied by 2 is equal to 2. And we have to do this calculation. Now, JSX will not do this calculation by default. So, we have to do this calculation in the form of JavaScript. So, we can save this expression if we want to treat it like JavaScript. And now, we will go to our page. So, here we have the print. 2 into 2 is equal to 4. So, here 2 into 2 was not printed. What was printed here? It was treated like JavaScript and evaluated the value of this expression. Or for example, if we have to use some variables in our code. The meaning of the word variables is that we have made a variable here. Let, we can call it name is equal to Shraddha. We have saved it. And here, we want to print our variable in this paragraph. So, here we can write high and then our curly braces. And here we can write name. Let's do this. Save. So, here we have high Shraddha, high Shraddha, high Shraddha. Now, if we want to change the value of this name. To change something in this, we can write dot to uppercase. So, uppercase is safe. So, here the name is printed in the uppercase. So, basically, if we have to associate some methods with variables, then we will not be able to do them normally in JSX. But yes, this window is the curly braces. In this, we can perform all the operations. So, basically, these curly braces allow us to write a pure JavaScript in our code."
+}

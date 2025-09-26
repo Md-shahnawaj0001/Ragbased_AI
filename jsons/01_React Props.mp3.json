@@ -1,0 +1,2203 @@
+{
+  "chunks": [
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 0.0,
+      "end": 4.0,
+      "text": " so the next topic we are going to start with is react props"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 4.0,
+      "end": 7.36,
+      "text": " till now we have talked about the components in react"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 7.36,
+      "end": 11.6,
+      "text": " components are basically functions that return UI elements"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 11.6,
+      "end": 16.48,
+      "text": " so the value that function is returning is the UI of our entire page"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 16.48,
+      "end": 22.88,
+      "text": " similarly if we are talking about functions then we had an important concept of arguments"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 22.88,
+      "end": 28.32,
+      "text": " that every function can take different arguments and give different outputs"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 28.32,
+      "end": 33.28,
+      "text": " but for now all the components we have written give the same output"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 33.28,
+      "end": 36.16,
+      "text": " for example if we see our product component"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 36.16,
+      "end": 39.120000000000005,
+      "text": " so this product component, let's run our react app"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 45.04,
+      "end": 49.28,
+      "text": " so once we run our app we have displayed three products in it"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 49.28,
+      "end": 54.480000000000004,
+      "text": " and in these three products title, description and title are same"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 54.559999999999995,
+      "end": 59.76,
+      "text": " so basically every time when we are calling our product component in product tab"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 59.76,
+      "end": 64.08,
+      "text": " so every time the product that is being generated is the same copy of the previous product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 64.08,
+      "end": 66.64,
+      "text": " so there is no change in such products"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 66.64,
+      "end": 71.19999999999999,
+      "text": " now it is very similar to saying that we have made a function with the name sum"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 71.19999999999999,
+      "end": 77.28,
+      "text": " and this function always returns sum of 1 plus 2"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 77.28,
+      "end": 79.84,
+      "text": " so what will be this function? this function will not be very useful"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 79.84,
+      "end": 82.96,
+      "text": " why? because every time we need a sum of new elements"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 83.03999999999999,
+      "end": 85.83999999999999,
+      "text": " similarly if we are making a component for a product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 85.83999999999999,
+      "end": 89.67999999999999,
+      "text": " so we want every product to have a different title and description"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 89.67999999999999,
+      "end": 93.19999999999999,
+      "text": " so that the title of the second product is different and description of the second product is different"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 93.19999999999999,
+      "end": 96.24,
+      "text": " so in this way we want to customize the information"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 96.24,
+      "end": 100.0,
+      "text": " we want to customize the information available in our component"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 100.0,
+      "end": 102.96,
+      "text": " but for now what is our component returning?"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 102.96,
+      "end": 107.11999999999999,
+      "text": " for now our component is returning the same static thing"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 107.11999999999999,
+      "end": 109.11999999999999,
+      "text": " there is no dynamic part in it"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 109.11999999999999,
+      "end": 111.91999999999999,
+      "text": " there is no dynamic content in the component"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 112.0,
+      "end": 116.88,
+      "text": " so basically props are the information that you pass to a JSX tag"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 116.88,
+      "end": 119.52,
+      "text": " whenever we call a component"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 119.52,
+      "end": 121.44,
+      "text": " we can also call a component"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 121.44,
+      "end": 124.96000000000001,
+      "text": " or when we are rendering a component which is the proper term"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 124.96000000000001,
+      "end": 129.52,
+      "text": " in product tab when we are rendering an individual product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 129.52,
+      "end": 134.0,
+      "text": " so if we want to pass some specific information with the product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 134.0,
+      "end": 136.88,
+      "text": " which can change how this product looks"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 136.88,
+      "end": 139.12,
+      "text": " so for that case we use props"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 139.20000000000002,
+      "end": 141.6,
+      "text": " and the specific information which we pass"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 141.6,
+      "end": 143.76,
+      "text": " we call it props in react"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 143.76,
+      "end": 146.0,
+      "text": " let's summarize it again"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 146.0,
+      "end": 148.4,
+      "text": " like we have a normal function"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 148.4,
+      "end": 150.4,
+      "text": " sum a and b"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 150.4,
+      "end": 152.4,
+      "text": " what will this sum function return?"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 152.4,
+      "end": 156.16,
+      "text": " this sum function will return sum of two numbers a and b"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 156.16,
+      "end": 158.8,
+      "text": " now when this sum function will be called"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 158.8,
+      "end": 161.68,
+      "text": " so we can pass 3 and 4 in it"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 161.68,
+      "end": 165.6,
+      "text": " so here what we call these 3 and 4 in JavaScript"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 165.6,
+      "end": 168.8,
+      "text": " we call them as our parameters"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 169.76000000000002,
+      "end": 174.88000000000002,
+      "text": " basically these are the values which can alter the output of this function"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 174.88000000000002,
+      "end": 176.96,
+      "text": " or if there is some other work in the function"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 176.96,
+      "end": 178.48000000000002,
+      "text": " so these values"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 178.48000000000002,
+      "end": 182.4,
+      "text": " these 3 and 4 values can be used in this sum function"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 182.4,
+      "end": 184.96,
+      "text": " now we have already talked about how our component is"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 184.96,
+      "end": 186.96,
+      "text": " our component is also a function"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 187.76000000000002,
+      "end": 190.08,
+      "text": " let's suppose our component is a product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 190.08,
+      "end": 191.20000000000002,
+      "text": " and what is this product doing?"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 191.20000000000002,
+      "end": 193.20000000000002,
+      "text": " this product is returning some value"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 193.20000000000002,
+      "end": 196.8,
+      "text": " so from here what it is returning is a UI element"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 196.88000000000002,
+      "end": 200.0,
+      "text": " it can be a div, it can be an h1, it can be a paragraph"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 200.0,
+      "end": 202.96,
+      "text": " it can be a group of many elements"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 202.96,
+      "end": 205.60000000000002,
+      "text": " now when we are rendering this product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 205.60000000000002,
+      "end": 208.0,
+      "text": " to render this product we write product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 208.0,
+      "end": 210.0,
+      "text": " slash like this"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 210.0,
+      "end": 216.88000000000002,
+      "text": " so with this product we can pass some additional information"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 216.88000000000002,
+      "end": 222.0,
+      "text": " the final information which will be used as an argument in this function"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 222.0,
+      "end": 225.84,
+      "text": " then that information can be used in the function anywhere"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 225.92000000000002,
+      "end": 228.32,
+      "text": " so this additional information which we pass"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 228.32,
+      "end": 230.64000000000001,
+      "text": " it is passed in the form of attributes"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 230.64000000000001,
+      "end": 233.52,
+      "text": " like we define attributes in HTML tags"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 233.52,
+      "end": 236.8,
+      "text": " we pass this information in the same similar syntax"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 236.8,
+      "end": 239.44,
+      "text": " and we call this information as props"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 239.44,
+      "end": 241.84,
+      "text": " so basically in functions, in function call"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 241.84,
+      "end": 243.44,
+      "text": " the parameters which are there"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 243.44,
+      "end": 246.24,
+      "text": " in the same component when the component is rendering"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 246.24,
+      "end": 247.92000000000002,
+      "text": " they become our props"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 247.92000000000002,
+      "end": 250.56,
+      "text": " so in this way we can pass on information"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 250.56,
+      "end": 252.96,
+      "text": " with every individual render"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 252.96,
+      "end": 254.96,
+      "text": " now for example here is a product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 254.96,
+      "end": 257.2,
+      "text": " for product we have passed two information"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 257.2,
+      "end": 259.2,
+      "text": " one will be the title of our product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 259.2,
+      "end": 262.0,
+      "text": " so here like we write attribute in HTML tags"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 262.0,
+      "end": 264.0,
+      "text": " we have image tag so in image tag"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 264.0,
+      "end": 266.64,
+      "text": " we write source attribute is equal to something"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 266.64,
+      "end": 268.96000000000004,
+      "text": " so what is this? this is attribute value pair"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 268.96000000000004,
+      "end": 272.56,
+      "text": " so here it will be our title which will be the name of our argument"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 272.56,
+      "end": 274.56,
+      "text": " and this will be its value which is our parameter"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 274.56,
+      "end": 275.76,
+      "text": " which we are passing"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 275.76,
+      "end": 277.36,
+      "text": " let's see an example of this"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 277.36,
+      "end": 280.96000000000004,
+      "text": " for example for now we have to print three titles"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 280.96000000000004,
+      "end": 282.32,
+      "text": " three different products"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 282.4,
+      "end": 285.59999999999997,
+      "text": " for every product we can send a different individual title"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 285.59999999999997,
+      "end": 288.0,
+      "text": " for first product we can send in title"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 288.0,
+      "end": 290.64,
+      "text": " let's suppose this is a phone"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 290.64,
+      "end": 293.28,
+      "text": " for second product we can send in title"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 293.28,
+      "end": 295.36,
+      "text": " this is a laptop"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 295.36,
+      "end": 298.32,
+      "text": " for third product we can send in title"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 298.32,
+      "end": 300.32,
+      "text": " let's call it pen"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 301.2,
+      "end": 303.28,
+      "text": " so in this way what we did is"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 303.28,
+      "end": 305.52,
+      "text": " we sent three additional props"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 305.52,
+      "end": 307.28,
+      "text": " saying three additional props means"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 307.28,
+      "end": 308.88,
+      "text": " when this product is rendering"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 308.88,
+      "end": 311.44,
+      "text": " then it will have pen information in the title"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 311.44,
+      "end": 312.8,
+      "text": " this product will be rendering"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 312.8,
+      "end": 314.24,
+      "text": " it will have laptop information"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 314.24,
+      "end": 315.44,
+      "text": " this product will be rendering"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 315.44,
+      "end": 316.88,
+      "text": " it will have phone information"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 316.88,
+      "end": 317.92,
+      "text": " now here"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 317.92,
+      "end": 319.28,
+      "text": " the thing which is being displayed"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 319.28,
+      "end": 320.64,
+      "text": " there will be no change in it"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 320.64,
+      "end": 324.56,
+      "text": " to bring change we have to go to our product.jsx"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 324.56,
+      "end": 326.8,
+      "text": " where finally in this component"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 326.8,
+      "end": 328.15999999999997,
+      "text": " our prop will come"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 328.15999999999997,
+      "end": 330.64,
+      "text": " now we access prop in the same format"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 330.64,
+      "end": 333.76,
+      "text": " as we access our normal arguments"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 333.76,
+      "end": 336.4,
+      "text": " so here for example for now let's assume"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 336.4,
+      "end": 338.8,
+      "text": " that we have an argument named props"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 338.8,
+      "end": 340.32,
+      "text": " and for now what we are going to do"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 340.32,
+      "end": 342.32,
+      "text": " for now we are going to lock console."
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 342.32,
+      "end": 343.76,
+      "text": " and we are going to print"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 343.76,
+      "end": 346.71999999999997,
+      "text": " that what exactly will be our props"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 346.71999999999997,
+      "end": 348.32,
+      "text": " let's save this"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 348.32,
+      "end": 350.88,
+      "text": " and here let us inspect"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 350.88,
+      "end": 352.64,
+      "text": " and go inside console window"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 352.64,
+      "end": 354.71999999999997,
+      "text": " here the same thing is being printed"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 354.71999999999997,
+      "end": 356.48,
+      "text": " for us double time"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 356.48,
+      "end": 359.28,
+      "text": " because when we use react.strict mode"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 359.28,
+      "end": 362.08,
+      "text": " in our main.js"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 362.08,
+      "end": 364.64,
+      "text": " so basically this is the side effect of using it"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 364.64,
+      "end": 365.68,
+      "text": " and now if i see"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 365.68,
+      "end": 368.15999999999997,
+      "text": " my objects are getting printed only once"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 368.16,
+      "end": 369.92,
+      "text": " so whenever we are doing things"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 369.92,
+      "end": 370.72,
+      "text": " in react.strict mode"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 370.72,
+      "end": 372.40000000000003,
+      "text": " so in that case in our console"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 372.40000000000003,
+      "end": 374.08000000000004,
+      "text": " things are being printed twice"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 374.08000000000004,
+      "end": 375.44,
+      "text": " if we are printing our props"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 375.44,
+      "end": 377.28000000000003,
+      "text": " in react component"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 377.28000000000003,
+      "end": 379.04,
+      "text": " so basically our first object"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 379.04,
+      "end": 379.84000000000003,
+      "text": " is being passed"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 379.84000000000003,
+      "end": 380.96000000000004,
+      "text": " so the props"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 380.96000000000004,
+      "end": 382.08000000000004,
+      "text": " which is our argument"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 382.08000000000004,
+      "end": 383.28000000000003,
+      "text": " is actually an object"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 383.28000000000003,
+      "end": 384.96000000000004,
+      "text": " in that object there is a key"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 384.96000000000004,
+      "end": 386.40000000000003,
+      "text": " title whose value is phone"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 386.40000000000003,
+      "end": 387.68,
+      "text": " second time the object came"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 387.68,
+      "end": 390.0,
+      "text": " in that the value of title is laptop"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 390.0,
+      "end": 391.28000000000003,
+      "text": " third time the object came"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 391.28000000000003,
+      "end": 392.88,
+      "text": " in that the value of title is pen"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 392.88,
+      "end": 394.08000000000004,
+      "text": " so in this way here"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 394.08000000000004,
+      "end": 396.32000000000005,
+      "text": " the final argument which is coming to us"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 396.32,
+      "end": 398.08,
+      "text": " let us uncomment this"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 401.68,
+      "end": 402.24,
+      "text": " ok"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 402.24,
+      "end": 404.32,
+      "text": " so here our props are coming"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 404.32,
+      "end": 406.08,
+      "text": " this is actually an object"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 406.08,
+      "end": 407.04,
+      "text": " and what we can do is"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 407.04,
+      "end": 408.64,
+      "text": " we can access only our title value"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 408.64,
+      "end": 410.64,
+      "text": " inside the props"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 411.44,
+      "end": 412.88,
+      "text": " if i refresh this page"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 412.88,
+      "end": 414.08,
+      "text": " so this time what will come to us"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 414.08,
+      "end": 416.48,
+      "text": " only our title value will be printed"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 416.48,
+      "end": 417.76,
+      "text": " now one way is that"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 417.76,
+      "end": 420.15999999999997,
+      "text": " here instead of product title"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 420.15999999999997,
+      "end": 422.24,
+      "text": " we can simply use our curly braces"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 422.24,
+      "end": 424.15999999999997,
+      "text": " because we want to write any variable"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 424.15999999999997,
+      "end": 425.44,
+      "text": " so here we can write"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 426.0,
+      "end": 428.16,
+      "text": " let us save this"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 428.16,
+      "end": 430.08,
+      "text": " we can remove console window"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 430.08,
+      "end": 430.8,
+      "text": " so now what happened"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 430.8,
+      "end": 431.68,
+      "text": " inside this product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 431.68,
+      "end": 433.2,
+      "text": " our phone came as a title"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 433.2,
+      "end": 433.92,
+      "text": " inside this product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 433.92,
+      "end": 435.04,
+      "text": " laptop came as a title"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 435.04,
+      "end": 435.84,
+      "text": " inside this product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 435.84,
+      "end": 437.28,
+      "text": " our pen came as a title"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 437.28,
+      "end": 438.56,
+      "text": " so now according to title"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 438.56,
+      "end": 440.4,
+      "text": " we can customize our product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 440.96,
+      "end": 441.84,
+      "text": " and along with that"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 441.84,
+      "end": 443.12,
+      "text": " one more second way"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 443.12,
+      "end": 444.15999999999997,
+      "text": " in fact better way"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 444.15999999999997,
+      "end": 445.52,
+      "text": " which generally you will get"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 445.52,
+      "end": 446.24,
+      "text": " in react documentation"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 446.24,
+      "end": 447.84,
+      "text": " and everywhere"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 447.84,
+      "end": 450.08,
+      "text": " that is we don't use props here"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 450.08,
+      "end": 452.4,
+      "text": " we do de-structuring directly"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 452.4,
+      "end": 453.84,
+      "text": " how do we do de-structuring"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 453.84,
+      "end": 455.36,
+      "text": " we know props is an object"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 455.84000000000003,
+      "end": 456.40000000000003,
+      "text": " so we know"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 456.40000000000003,
+      "end": 457.92,
+      "text": " some keys will come inside the object"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 457.92,
+      "end": 459.6,
+      "text": " so the keys we are expecting"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 459.6,
+      "end": 461.6,
+      "text": " we will write them here"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 461.6,
+      "end": 463.36,
+      "text": " inside these curly braces"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 463.36,
+      "end": 465.36,
+      "text": " so let us remove console.log"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 465.36,
+      "end": 467.36,
+      "text": " now here we don't need to write props.title"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 467.36,
+      "end": 469.36,
+      "text": " now we can simply write title here"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 469.36,
+      "end": 471.36,
+      "text": " and if we refresh"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 471.36,
+      "end": 473.36,
+      "text": " our code will be the same"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 473.36,
+      "end": 475.36,
+      "text": " that is we are able to use title here"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 475.36,
+      "end": 477.36,
+      "text": " we can create one more prop"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 477.36,
+      "end": 479.36,
+      "text": " what we can do is"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 479.36,
+      "end": 481.36,
+      "text": " we can pass some price"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 481.36,
+      "end": 483.36,
+      "text": " so to add price"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 483.36,
+      "end": 485.36,
+      "text": " we can write"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 485.36,
+      "end": 487.36,
+      "text": " price is equal to"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 487.36,
+      "end": 489.36,
+      "text": " let's suppose for now we are sending price as a string"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 489.36,
+      "end": 491.36,
+      "text": " so here price will be"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 491.36,
+      "end": 493.36,
+      "text": " equal to"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 493.36,
+      "end": 495.36,
+      "text": " for laptop"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 495.36,
+      "end": 497.36,
+      "text": " we can write 40k"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 497.36,
+      "end": 499.36,
+      "text": " price is equal to"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 499.36,
+      "end": 501.36,
+      "text": " for this we can write 10"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 501.36,
+      "end": 503.36,
+      "text": " we save this"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 503.36,
+      "end": 505.36,
+      "text": " now to access price here"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 505.36,
+      "end": 507.36,
+      "text": " we will write comma and write price"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 507.36,
+      "end": 509.36,
+      "text": " and to use this price"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 509.36,
+      "end": 511.36,
+      "text": " we can simply write something like this"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 511.36,
+      "end": 513.36,
+      "text": " and again curly braces"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 513.36,
+      "end": 515.36,
+      "text": " and we can type our price inside this"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 515.36,
+      "end": 517.36,
+      "text": " we save it and refresh it"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 517.36,
+      "end": 519.36,
+      "text": " so here our first product came"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 519.36,
+      "end": 521.36,
+      "text": " in which we have title and price"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 521.36,
+      "end": 523.36,
+      "text": " second product has different title and price"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 523.36,
+      "end": 525.36,
+      "text": " third product has different title and price"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 525.36,
+      "end": 527.36,
+      "text": " we can also change"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 527.36,
+      "end": 529.36,
+      "text": " this dark background"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 529.36,
+      "end": 531.36,
+      "text": " basically our dark background"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 531.36,
+      "end": 533.36,
+      "text": " if we go to the main.jsx"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 533.36,
+      "end": 535.36,
+      "text": " file"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 535.36,
+      "end": 537.36,
+      "text": " I believe this is coming from index.css"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 537.36,
+      "end": 539.36,
+      "text": " we will comment this out"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 539.36,
+      "end": 541.36,
+      "text": " so we will get this styling"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 541.36,
+      "end": 543.36,
+      "text": " and inside product.css"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 543.36,
+      "end": 545.36,
+      "text": " last time we kept border white"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 545.36,
+      "end": 547.36,
+      "text": " we can change it to black"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 547.36,
+      "end": 549.36,
+      "text": " let's cross this too"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 549.36,
+      "end": 551.36,
+      "text": " and basically this is our phone"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 551.36,
+      "end": 553.36,
+      "text": " our default styling is gone"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 553.36,
+      "end": 555.36,
+      "text": " because of which margin was coming"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 555.36,
+      "end": 557.36,
+      "text": " towards right and left"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 557.36,
+      "end": 559.36,
+      "text": " so for now we will get our text printed in these boxes"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 559.36,
+      "end": 561.36,
+      "text": " so basically this will be our first product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 561.36,
+      "end": 563.36,
+      "text": " second product and third product"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 563.36,
+      "end": 565.36,
+      "text": " so in this way we are learning"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 565.36,
+      "end": 567.36,
+      "text": " that once we have created a component"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 567.36,
+      "end": 569.36,
+      "text": " we have created this component"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 569.36,
+      "end": 571.36,
+      "text": " so how can we reuse this component"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 571.36,
+      "end": 573.36,
+      "text": " that too with customizations"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 573.36,
+      "end": 575.36,
+      "text": " that too with configuring information"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 575.36,
+      "end": 577.36,
+      "text": " now one thing we have to notice"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 577.36,
+      "end": 579.36,
+      "text": " that when we are"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 579.36,
+      "end": 581.36,
+      "text": " passing information inside product tab"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 581.36,
+      "end": 583.36,
+      "text": " so till now we have seen"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 583.36,
+      "end": 585.36,
+      "text": " that we are passing our information"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 585.36,
+      "end": 587.36,
+      "text": " in the form of string"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 587.36,
+      "end": 589.36,
+      "text": " but we may have to pass information"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 589.36,
+      "end": 591.36,
+      "text": " in the form of numbers because price is a number"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 591.36,
+      "end": 593.36,
+      "text": " but here when we remove our strings"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 593.36,
+      "end": 595.36,
+      "text": " for example"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 595.36,
+      "end": 597.36,
+      "text": " if I want to write simply a number"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 597.36,
+      "end": 599.36,
+      "text": " called 30000 so we will get an error here"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 599.36,
+      "end": 601.36,
+      "text": " so basically we are not able to pass numbers"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 601.36,
+      "end": 603.36,
+      "text": " directly like this"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 603.36,
+      "end": 605.36,
+      "text": " to pass numbers we have to"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 605.36,
+      "end": 607.36,
+      "text": " wrap numbers in curly braces"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 607.36,
+      "end": 609.36,
+      "text": " only then they will be used"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 609.36,
+      "end": 611.36,
+      "text": " inside our product like a number"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 611.36,
+      "end": 613.36,
+      "text": " so here also"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 613.36,
+      "end": 615.36,
+      "text": " if I want to use 40000 as a number"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 615.36,
+      "end": 617.36,
+      "text": " so we have to pass it inside curly braces"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 617.36,
+      "end": 619.36,
+      "text": " we have to pass this too"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 619.36,
+      "end": 621.36,
+      "text": " inside curly braces"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 621.36,
+      "end": 623.36,
+      "text": " so when we will print our price"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 623.36,
+      "end": 625.36,
+      "text": " so that price will be a number"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 625.36,
+      "end": 627.36,
+      "text": " how we are getting to know"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 627.36,
+      "end": 629.36,
+      "text": " that we can divide this price from 2"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 629.36,
+      "end": 631.36,
+      "text": " so this time our price is"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 631.36,
+      "end": 633.36,
+      "text": " divided from 2"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 633.36,
+      "end": 635.36,
+      "text": " so now we can treat it like a number"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 635.36,
+      "end": 637.36,
+      "text": " dividing, multiplying, arithmetic operations"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 637.36,
+      "end": 639.36,
+      "text": " and other operations"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 639.36,
+      "end": 641.36,
+      "text": " we can't do this with strings"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 641.36,
+      "end": 643.36,
+      "text": " operations can be done with numbers"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 643.36,
+      "end": 645.36,
+      "text": " so that's why many times we have to pass information as a number"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 645.36,
+      "end": 647.36,
+      "text": " many times if we have to pass"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 647.36,
+      "end": 649.36,
+      "text": " information in other format"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 649.36,
+      "end": 651.36,
+      "text": " then we are passing it inside curly braces"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 651.36,
+      "end": 653.36,
+      "text": " now with props"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 653.36,
+      "end": 655.36,
+      "text": " there is one more additional feature of default values"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 655.36,
+      "end": 657.36,
+      "text": " so till now we have understood"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 657.36,
+      "end": 659.36,
+      "text": " clearly that our props are like"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 659.36,
+      "end": 661.36,
+      "text": " function arguments"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 661.36,
+      "end": 663.36,
+      "text": " now like in function arguments we can assign default values"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 663.36,
+      "end": 665.36,
+      "text": " for example if I have defined"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 665.36,
+      "end": 667.36,
+      "text": " some function then I can write"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 667.36,
+      "end": 669.36,
+      "text": " that if a will come and b"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 669.36,
+      "end": 671.36,
+      "text": " will not come then by default we want"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 671.36,
+      "end": 673.36,
+      "text": " that value of b will be assigned and our result"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 673.36,
+      "end": 675.36,
+      "text": " will be calculated accordingly"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 675.36,
+      "end": 677.36,
+      "text": " so many times we assign default values in functions"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 677.36,
+      "end": 679.36,
+      "text": " similarly we can assign"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 679.36,
+      "end": 681.36,
+      "text": " default values in components"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 681.36,
+      "end": 683.36,
+      "text": " for example if"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 683.36,
+      "end": 685.36,
+      "text": " price is nothing then in that case"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 685.36,
+      "end": 687.36,
+      "text": " I want the price to be equal to 1"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 687.36,
+      "end": 689.36,
+      "text": " we have set the price to be equal to 1"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 689.36,
+      "end": 691.36,
+      "text": " divide by 2"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 691.36,
+      "end": 693.36,
+      "text": " and remove it"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 693.36,
+      "end": 695.36,
+      "text": " so when in product tab"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 695.36,
+      "end": 697.36,
+      "text": " if I didn't pass price for pen"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 697.36,
+      "end": 699.36,
+      "text": " then in that case if we refresh"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 699.36,
+      "end": 701.36,
+      "text": " then by default my price will be set to 1"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 701.36,
+      "end": 703.36,
+      "text": " so this is the"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 703.36,
+      "end": 705.36,
+      "text": " basics of props, props are really"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 705.36,
+      "end": 707.36,
+      "text": " important when it comes to development"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 707.36,
+      "end": 709.36,
+      "text": " using react, in react"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 709.36,
+      "end": 711.36,
+      "text": " we will get to see props in many places"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 711.36,
+      "end": 713.36,
+      "text": " and that's why props are"
+    },
+    {
+      "number": "01",
+      "title": "React Props.mp3",
+      "start": 713.36,
+      "end": 715.36,
+      "text": " an important part of react"
+    }
+  ],
+  "text": " so the next topic we are going to start with is react props till now we have talked about the components in react components are basically functions that return UI elements so the value that function is returning is the UI of our entire page similarly if we are talking about functions then we had an important concept of arguments that every function can take different arguments and give different outputs but for now all the components we have written give the same output for example if we see our product component so this product component, let's run our react app so once we run our app we have displayed three products in it and in these three products title, description and title are same so basically every time when we are calling our product component in product tab so every time the product that is being generated is the same copy of the previous product so there is no change in such products now it is very similar to saying that we have made a function with the name sum and this function always returns sum of 1 plus 2 so what will be this function? this function will not be very useful why? because every time we need a sum of new elements similarly if we are making a component for a product so we want every product to have a different title and description so that the title of the second product is different and description of the second product is different so in this way we want to customize the information we want to customize the information available in our component but for now what is our component returning? for now our component is returning the same static thing there is no dynamic part in it there is no dynamic content in the component so basically props are the information that you pass to a JSX tag whenever we call a component we can also call a component or when we are rendering a component which is the proper term in product tab when we are rendering an individual product so if we want to pass some specific information with the product which can change how this product looks so for that case we use props and the specific information which we pass we call it props in react let's summarize it again like we have a normal function sum a and b what will this sum function return? this sum function will return sum of two numbers a and b now when this sum function will be called so we can pass 3 and 4 in it so here what we call these 3 and 4 in JavaScript we call them as our parameters basically these are the values which can alter the output of this function or if there is some other work in the function so these values these 3 and 4 values can be used in this sum function now we have already talked about how our component is our component is also a function let's suppose our component is a product and what is this product doing? this product is returning some value so from here what it is returning is a UI element it can be a div, it can be an h1, it can be a paragraph it can be a group of many elements now when we are rendering this product to render this product we write product slash like this so with this product we can pass some additional information the final information which will be used as an argument in this function then that information can be used in the function anywhere so this additional information which we pass it is passed in the form of attributes like we define attributes in HTML tags we pass this information in the same similar syntax and we call this information as props so basically in functions, in function call the parameters which are there in the same component when the component is rendering they become our props so in this way we can pass on information with every individual render now for example here is a product for product we have passed two information one will be the title of our product so here like we write attribute in HTML tags we have image tag so in image tag we write source attribute is equal to something so what is this? this is attribute value pair so here it will be our title which will be the name of our argument and this will be its value which is our parameter which we are passing let's see an example of this for example for now we have to print three titles three different products for every product we can send a different individual title for first product we can send in title let's suppose this is a phone for second product we can send in title this is a laptop for third product we can send in title let's call it pen so in this way what we did is we sent three additional props saying three additional props means when this product is rendering then it will have pen information in the title this product will be rendering it will have laptop information this product will be rendering it will have phone information now here the thing which is being displayed there will be no change in it to bring change we have to go to our product.jsx where finally in this component our prop will come now we access prop in the same format as we access our normal arguments so here for example for now let's assume that we have an argument named props and for now what we are going to do for now we are going to lock console. and we are going to print that what exactly will be our props let's save this and here let us inspect and go inside console window here the same thing is being printed for us double time because when we use react.strict mode in our main.js so basically this is the side effect of using it and now if i see my objects are getting printed only once so whenever we are doing things in react.strict mode so in that case in our console things are being printed twice if we are printing our props in react component so basically our first object is being passed so the props which is our argument is actually an object in that object there is a key title whose value is phone second time the object came in that the value of title is laptop third time the object came in that the value of title is pen so in this way here the final argument which is coming to us let us uncomment this ok so here our props are coming this is actually an object and what we can do is we can access only our title value inside the props if i refresh this page so this time what will come to us only our title value will be printed now one way is that here instead of product title we can simply use our curly braces because we want to write any variable so here we can write let us save this we can remove console window so now what happened inside this product our phone came as a title inside this product laptop came as a title inside this product our pen came as a title so now according to title we can customize our product and along with that one more second way in fact better way which generally you will get in react documentation and everywhere that is we don't use props here we do de-structuring directly how do we do de-structuring we know props is an object so we know some keys will come inside the object so the keys we are expecting we will write them here inside these curly braces so let us remove console.log now here we don't need to write props.title now we can simply write title here and if we refresh our code will be the same that is we are able to use title here we can create one more prop what we can do is we can pass some price so to add price we can write price is equal to let's suppose for now we are sending price as a string so here price will be equal to for laptop we can write 40k price is equal to for this we can write 10 we save this now to access price here we will write comma and write price and to use this price we can simply write something like this and again curly braces and we can type our price inside this we save it and refresh it so here our first product came in which we have title and price second product has different title and price third product has different title and price we can also change this dark background basically our dark background if we go to the main.jsx file I believe this is coming from index.css we will comment this out so we will get this styling and inside product.css last time we kept border white we can change it to black let's cross this too and basically this is our phone our default styling is gone because of which margin was coming towards right and left so for now we will get our text printed in these boxes so basically this will be our first product second product and third product so in this way we are learning that once we have created a component we have created this component so how can we reuse this component that too with customizations that too with configuring information now one thing we have to notice that when we are passing information inside product tab so till now we have seen that we are passing our information in the form of string but we may have to pass information in the form of numbers because price is a number but here when we remove our strings for example if I want to write simply a number called 30000 so we will get an error here so basically we are not able to pass numbers directly like this to pass numbers we have to wrap numbers in curly braces only then they will be used inside our product like a number so here also if I want to use 40000 as a number so we have to pass it inside curly braces we have to pass this too inside curly braces so when we will print our price so that price will be a number how we are getting to know that we can divide this price from 2 so this time our price is divided from 2 so now we can treat it like a number dividing, multiplying, arithmetic operations and other operations we can't do this with strings operations can be done with numbers so that's why many times we have to pass information as a number many times if we have to pass information in other format then we are passing it inside curly braces now with props there is one more additional feature of default values so till now we have understood clearly that our props are like function arguments now like in function arguments we can assign default values for example if I have defined some function then I can write that if a will come and b will not come then by default we want that value of b will be assigned and our result will be calculated accordingly so many times we assign default values in functions similarly we can assign default values in components for example if price is nothing then in that case I want the price to be equal to 1 we have set the price to be equal to 1 divide by 2 and remove it so when in product tab if I didn't pass price for pen then in that case if we refresh then by default my price will be set to 1 so this is the basics of props, props are really important when it comes to development using react, in react we will get to see props in many places and that's why props are an important part of react"
+}

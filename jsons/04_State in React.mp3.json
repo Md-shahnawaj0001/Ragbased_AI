@@ -1,0 +1,901 @@
+{
+  "chunks": [
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 0.0,
+      "end": 9.0,
+      "text": " Next we will talk about a very important concept in React, which is states."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 9.0,
+      "end": 15.0,
+      "text": " We have three major fundamental pillars in React, whenever we are learning React as a beginner."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 15.0,
+      "end": 21.0,
+      "text": " First of all, we have components, second is our props, and third is our states."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 21.0,
+      "end": 31.0,
+      "text": " States give us the ability to re-render our components in our elements."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 31.0,
+      "end": 39.0,
+      "text": " States can be a complex topic as a beginner, but it will take some time to get attention."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 39.0,
+      "end": 46.0,
+      "text": " We will be covering all the concepts slowly and in a very simple way, we will learn all the things step by step."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 46.0,
+      "end": 50.0,
+      "text": " To learn states, we can create a new project."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 50.0,
+      "end": 55.0,
+      "text": " By doing CD, we can create a new project in our Delta React."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 55.0,
+      "end": 58.0,
+      "text": " So, NPM, Create, write."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 58.0,
+      "end": 72.0,
+      "text": " We can name our project React States, or React State Class, and we will choose React Framework, JavaScript."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 72.0,
+      "end": 80.0,
+      "text": " We will clear it, and we will do CD into our other project, or in fact, we will open it directly."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 80.0,
+      "end": 85.0,
+      "text": " In the new project, we know that we have to install NPM first."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 85.0,
+      "end": 95.0,
+      "text": " Now, installation will be completed, so let's do NPM run, and here, let's open our page."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 95.0,
+      "end": 100.0,
+      "text": " This will be our final page, which is generally generated for us, this is the default page."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 100.0,
+      "end": 106.0,
+      "text": " Now, on the default page, we can see a counter, that is, a button where some things are counting."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 106.0,
+      "end": 110.0,
+      "text": " As we click on it, we get an update on the count."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 110.0,
+      "end": 117.0,
+      "text": " Basically, we are going to try to build this component, how can we build a counter in our React app?"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 117.0,
+      "end": 122.0,
+      "text": " And from there, we will understand why we need a state-like thing in React."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 122.0,
+      "end": 129.0,
+      "text": " Now, first of all, we will remove some elements, go to the source, and go to app.jsx."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 129.0,
+      "end": 138.0,
+      "text": " By the way, you may not understand the things written in this way in the code, but I am sure that we will cover the concept of states once."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 138.0,
+      "end": 142.0,
+      "text": " So, clearly, we will understand this line very well."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 142.0,
+      "end": 145.0,
+      "text": " Remove all the things."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 145.0,
+      "end": 154.0,
+      "text": " And for now, we will just send one H1 state in React."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 154.0,
+      "end": 157.0,
+      "text": " On top of that, we don't need to require these things."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 157.0,
+      "end": 160.0,
+      "text": " We are just requiring CSS."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 160.0,
+      "end": 166.0,
+      "text": " And our return statement disappeared from here, save."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 166.0,
+      "end": 168.0,
+      "text": " And this is our state in React."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 168.0,
+      "end": 169.0,
+      "text": " Let's refresh."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 169.0,
+      "end": 173.0,
+      "text": " If we go to errors, then we will read about states in React."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 173.0,
+      "end": 178.0,
+      "text": " Now, first of all, let's talk about how we will create a counter like this."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 178.0,
+      "end": 184.0,
+      "text": " Basically, we will create a counter, a name component."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 184.0,
+      "end": 187.0,
+      "text": " We will create an export default function."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 187.0,
+      "end": 189.0,
+      "text": " We will name it counter."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 189.0,
+      "end": 195.0,
+      "text": " And now, we normally think about how we can create a counter in a JavaScript function."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 195.0,
+      "end": 200.0,
+      "text": " Generally, if we want to create a counter in JS, we can create a count variable for that."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 200.0,
+      "end": 202.0,
+      "text": " We will start with zero."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 202.0,
+      "end": 205.0,
+      "text": " After that, we can define a function here."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 205.0,
+      "end": 209.0,
+      "text": " We can call it increaseCount."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 209.0,
+      "end": 214.0,
+      "text": " And in increaseCount function, we will add plus one in the count."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 214.0,
+      "end": 218.0,
+      "text": " And after that, we will lock the console."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 218.0,
+      "end": 221.0,
+      "text": " What is the value of our count?"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 221.0,
+      "end": 225.0,
+      "text": " And this method will render for us."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 225.0,
+      "end": 227.0,
+      "text": " Let's render a div."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 227.0,
+      "end": 229.0,
+      "text": " We will have some h3 heading."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 229.0,
+      "end": 234.0,
+      "text": " And here, we will print the value of our count, which is going to be this count variable."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 234.0,
+      "end": 235.0,
+      "text": " Let's do this."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 235.0,
+      "end": 236.0,
+      "text": " What is happening here?"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 236.0,
+      "end": 241.0,
+      "text": " We have done a div return for ourselves, which is our h3, which shows our count variable."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 241.0,
+      "end": 246.0,
+      "text": " And along with that, we have made a method to increase the count variable."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 246.0,
+      "end": 250.0,
+      "text": " Now, to use this component, we go to app.jsx."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 250.0,
+      "end": 254.0,
+      "text": " And what we will do is, we will import our counter."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 254.0,
+      "end": 258.0,
+      "text": " And here, we will display our counter."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 258.0,
+      "end": 259.0,
+      "text": " Safe."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 259.0,
+      "end": 261.0,
+      "text": " And here, we have our counter."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 261.0,
+      "end": 263.0,
+      "text": " The value of the counter is zero."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 263.0,
+      "end": 266.0,
+      "text": " To increase it, we will make a button."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 266.0,
+      "end": 268.0,
+      "text": " Let's create a button."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 268.0,
+      "end": 273.0,
+      "text": " And we will write on the button, increaseCount."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 273.0,
+      "end": 274.0,
+      "text": " Refresh."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 274.0,
+      "end": 280.0,
+      "text": " The styling that is coming up right now, this is default styling, which is defined in our index.css file."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 280.0,
+      "end": 281.0,
+      "text": " It is defined in the index."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 281.0,
+      "end": 283.0,
+      "text": " If you want to change something, we can change something."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 283.0,
+      "end": 286.0,
+      "text": " For example, here, we have a background color set."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 286.0,
+      "end": 290.0,
+      "text": " That is equal to a dark background color, which we can change."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 290.0,
+      "end": 293.0,
+      "text": " This is the default styling for the buttons."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 293.0,
+      "end": 297.0,
+      "text": " We can keep it for now or we can change it if we want."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 297.0,
+      "end": 301.0,
+      "text": " Now, if we want to increase the count, we will have to click on the button."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 301.0,
+      "end": 308.0,
+      "text": " Now, as soon as we click on the button, we will notice that as such, there is no change."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 308.0,
+      "end": 312.0,
+      "text": " To bring change, we will have to add an event on the button."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 312.0,
+      "end": 318.0,
+      "text": " So, we can add our increaseCount method in the form of an onClick event."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 318.0,
+      "end": 323.0,
+      "text": " So, as soon as it is clicked on the button, the increaseCount will be invoked, called."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 323.0,
+      "end": 327.0,
+      "text": " As soon as the increaseCount is called, it will print it in the value of the count."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 327.0,
+      "end": 332.0,
+      "text": " And in our mind, this thought should come, that as soon as the count has increased,"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 332.0,
+      "end": 336.0,
+      "text": " the value of the count in this component will also increase automatically."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 336.0,
+      "end": 338.0,
+      "text": " But this does not happen."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 338.0,
+      "end": 341.0,
+      "text": " Meaning, if we have this in mind, that the count has increased from here,"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 341.0,
+      "end": 346.0,
+      "text": " whether we are making it console or not, but the value of the count will be updated here,"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 346.0,
+      "end": 348.0,
+      "text": " then generally, that functionality does not remain."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 348.0,
+      "end": 351.0,
+      "text": " Now, we already know that if it is not the same, then let's see it while it is there."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 351.0,
+      "end": 354.0,
+      "text": " Here, let's refresh it once."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 354.0,
+      "end": 358.0,
+      "text": " As soon as we click on the increaseCount, what is the print for us?"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 358.0,
+      "end": 360.0,
+      "text": " The value of the count has been printed for us."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 360.0,
+      "end": 362.0,
+      "text": " But it is not in this component here."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 362.0,
+      "end": 365.0,
+      "text": " Again, we will click on the increaseCount."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 365.0,
+      "end": 387.0,
+      "text": " The count is increasing."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 387.0,
+      "end": 389.0,
+      "text": " But no updations are being made here."
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 389.0,
+      "end": 392.18,
+      "text": " means that our UI does not have any updates"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 392.18,
+      "end": 397.0,
+      "text": " so generally, whatever variables we define in our functions, in our components"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 397.0,
+      "end": 399.18,
+      "text": " if any changes are done in them"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 399.18,
+      "end": 403.72,
+      "text": " then they do not come with any changes in our UI components, UI elements"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 403.72,
+      "end": 406.42,
+      "text": " because the count is increasing in the component"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 406.42,
+      "end": 410.26,
+      "text": " but the DOM, the document object model, does not have any updates"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 410.26,
+      "end": 414.54,
+      "text": " only the updates are there, only the updates are in our logic, in the console"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 414.54,
+      "end": 416.18,
+      "text": " there is no difference on DOM"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 416.34000000000003,
+      "end": 419.74,
+      "text": " so basically, whenever our component is rendered"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 419.74,
+      "end": 424.44,
+      "text": " when we talk about our component, we know that the component is just a function"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 424.44,
+      "end": 427.0,
+      "text": " which is rendered once for us"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 427.0,
+      "end": 432.42,
+      "text": " now if there are some changes in the component, then they cannot re-render our UI"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 432.42,
+      "end": 435.3,
+      "text": " so here we have the concept of the state"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 435.3,
+      "end": 439.34000000000003,
+      "text": " the state works is that if there are some changes in the component"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 439.34000000000003,
+      "end": 441.34000000000003,
+      "text": " if there is some change in something"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 441.34,
+      "end": 445.82,
+      "text": " the state means that we are trying to define a variable in which if there are some changes"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 445.82,
+      "end": 448.14,
+      "text": " then we want our component to re-render"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 448.14,
+      "end": 450.7,
+      "text": " like if something is changing in the count"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 450.7,
+      "end": 456.38,
+      "text": " then the component part of our H3, the component should be re-rendered with the new updated value"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 456.38,
+      "end": 461.09999999999997,
+      "text": " so the state is a built-in React object that is used to contain data"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 461.09999999999997,
+      "end": 463.09999999999997,
+      "text": " or information about the component"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 463.09999999999997,
+      "end": 469.09999999999997,
+      "text": " that is, the state is a built-in object in which our React component has some information"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 469.26000000000005,
+      "end": 473.82000000000005,
+      "text": " and a component state can change over time whenever it changes, the component re-renders"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 473.82000000000005,
+      "end": 479.26000000000005,
+      "text": " whenever the state of our component changes, our component re-renders"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 479.26000000000005,
+      "end": 482.46000000000004,
+      "text": " so from here we have learnt that our component"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 482.46000000000004,
+      "end": 487.42,
+      "text": " if there are some normal variables"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 487.42,
+      "end": 492.46000000000004,
+      "text": " or if our props variables are immutable"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 492.46000000000004,
+      "end": 496.14000000000004,
+      "text": " we call them immutable, they cannot be changed"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 496.21999999999997,
+      "end": 500.62,
+      "text": " so if their value changes, then our React component does not re-render"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 500.62,
+      "end": 503.9,
+      "text": " when does it re-render? when it changes in the state"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 503.9,
+      "end": 507.58,
+      "text": " so for any component, we define a new variable called state"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 507.58,
+      "end": 510.53999999999996,
+      "text": " which is an object in itself"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 510.53999999999996,
+      "end": 512.9399999999999,
+      "text": " and if there are some changes in the state"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 512.9399999999999,
+      "end": 516.3,
+      "text": " then it will re-render our component"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 516.3,
+      "end": 521.1,
+      "text": " meaning it will re-execute the component which is actually a function"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 521.1,
+      "end": 522.38,
+      "text": " from the top to the bottom"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 522.62,
+      "end": 525.5,
+      "text": " when it will re-execute from the top to the bottom"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 525.5,
+      "end": 527.9,
+      "text": " then it will return this thing"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 527.9,
+      "end": 532.14,
+      "text": " and we have an updated value in it"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 532.14,
+      "end": 534.9399999999999,
+      "text": " now our state in React"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 534.9399999999999,
+      "end": 538.78,
+      "text": " before understanding that, we have to understand another important concept"
+    },
+    {
+      "number": "04",
+      "title": "State in React.mp3",
+      "start": 538.78,
+      "end": 539.98,
+      "text": " which is called hooks"
+    }
+  ],
+  "text": " Next we will talk about a very important concept in React, which is states. We have three major fundamental pillars in React, whenever we are learning React as a beginner. First of all, we have components, second is our props, and third is our states. States give us the ability to re-render our components in our elements. States can be a complex topic as a beginner, but it will take some time to get attention. We will be covering all the concepts slowly and in a very simple way, we will learn all the things step by step. To learn states, we can create a new project. By doing CD, we can create a new project in our Delta React. So, NPM, Create, write. We can name our project React States, or React State Class, and we will choose React Framework, JavaScript. We will clear it, and we will do CD into our other project, or in fact, we will open it directly. In the new project, we know that we have to install NPM first. Now, installation will be completed, so let's do NPM run, and here, let's open our page. This will be our final page, which is generally generated for us, this is the default page. Now, on the default page, we can see a counter, that is, a button where some things are counting. As we click on it, we get an update on the count. Basically, we are going to try to build this component, how can we build a counter in our React app? And from there, we will understand why we need a state-like thing in React. Now, first of all, we will remove some elements, go to the source, and go to app.jsx. By the way, you may not understand the things written in this way in the code, but I am sure that we will cover the concept of states once. So, clearly, we will understand this line very well. Remove all the things. And for now, we will just send one H1 state in React. On top of that, we don't need to require these things. We are just requiring CSS. And our return statement disappeared from here, save. And this is our state in React. Let's refresh. If we go to errors, then we will read about states in React. Now, first of all, let's talk about how we will create a counter like this. Basically, we will create a counter, a name component. We will create an export default function. We will name it counter. And now, we normally think about how we can create a counter in a JavaScript function. Generally, if we want to create a counter in JS, we can create a count variable for that. We will start with zero. After that, we can define a function here. We can call it increaseCount. And in increaseCount function, we will add plus one in the count. And after that, we will lock the console. What is the value of our count? And this method will render for us. Let's render a div. We will have some h3 heading. And here, we will print the value of our count, which is going to be this count variable. Let's do this. What is happening here? We have done a div return for ourselves, which is our h3, which shows our count variable. And along with that, we have made a method to increase the count variable. Now, to use this component, we go to app.jsx. And what we will do is, we will import our counter. And here, we will display our counter. Safe. And here, we have our counter. The value of the counter is zero. To increase it, we will make a button. Let's create a button. And we will write on the button, increaseCount. Refresh. The styling that is coming up right now, this is default styling, which is defined in our index.css file. It is defined in the index. If you want to change something, we can change something. For example, here, we have a background color set. That is equal to a dark background color, which we can change. This is the default styling for the buttons. We can keep it for now or we can change it if we want. Now, if we want to increase the count, we will have to click on the button. Now, as soon as we click on the button, we will notice that as such, there is no change. To bring change, we will have to add an event on the button. So, we can add our increaseCount method in the form of an onClick event. So, as soon as it is clicked on the button, the increaseCount will be invoked, called. As soon as the increaseCount is called, it will print it in the value of the count. And in our mind, this thought should come, that as soon as the count has increased, the value of the count in this component will also increase automatically. But this does not happen. Meaning, if we have this in mind, that the count has increased from here, whether we are making it console or not, but the value of the count will be updated here, then generally, that functionality does not remain. Now, we already know that if it is not the same, then let's see it while it is there. Here, let's refresh it once. As soon as we click on the increaseCount, what is the print for us? The value of the count has been printed for us. But it is not in this component here. Again, we will click on the increaseCount. The count is increasing. But no updations are being made here. means that our UI does not have any updates so generally, whatever variables we define in our functions, in our components if any changes are done in them then they do not come with any changes in our UI components, UI elements because the count is increasing in the component but the DOM, the document object model, does not have any updates only the updates are there, only the updates are in our logic, in the console there is no difference on DOM so basically, whenever our component is rendered when we talk about our component, we know that the component is just a function which is rendered once for us now if there are some changes in the component, then they cannot re-render our UI so here we have the concept of the state the state works is that if there are some changes in the component if there is some change in something the state means that we are trying to define a variable in which if there are some changes then we want our component to re-render like if something is changing in the count then the component part of our H3, the component should be re-rendered with the new updated value so the state is a built-in React object that is used to contain data or information about the component that is, the state is a built-in object in which our React component has some information and a component state can change over time whenever it changes, the component re-renders whenever the state of our component changes, our component re-renders so from here we have learnt that our component if there are some normal variables or if our props variables are immutable we call them immutable, they cannot be changed so if their value changes, then our React component does not re-render when does it re-render? when it changes in the state so for any component, we define a new variable called state which is an object in itself and if there are some changes in the state then it will re-render our component meaning it will re-execute the component which is actually a function from the top to the bottom when it will re-execute from the top to the bottom then it will return this thing and we have an updated value in it now our state in React before understanding that, we have to understand another important concept which is called hooks"
+}

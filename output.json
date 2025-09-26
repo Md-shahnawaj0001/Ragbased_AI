@@ -1,0 +1,17 @@
+[
+    {
+        "start": 0.0,
+        "end": 2.0,
+        "text": " Now let's talk about hooks."
+    },
+    {
+        "start": 2.0,
+        "end": 6.6000000000000005,
+        "text": " So when we talk about hooks, basically when we had React in the beginning,"
+    },
+    {
+        "start": 6.6000000000000005,
+        "end": 10.0,
+        "text": " in the beginning when React came, the components that were built in it were..."
+    }
+]

@@ -1,0 +1,922 @@
+{
+  "chunks": [
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 0.0,
+      "end": 3.5,
+      "text": " Next we will talk about our event object."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 3.5,
+      "end": 11.3,
+      "text": " Whenever an event occurs, an event object is associated with it which is automatically passed to our handler."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 11.3,
+      "end": 15.6,
+      "text": " For example, this button click event, handle click."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 15.6,
+      "end": 20.7,
+      "text": " In this handle click, we can write an argument for ourselves which is called event."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 20.7,
+      "end": 24.8,
+      "text": " And if we want, we can print it. Let's print it after hello."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 24.8,
+      "end": 27.5,
+      "text": " Here, console.log event."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 27.5,
+      "end": 31.9,
+      "text": " And this event object has all the information related to the event."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 31.9,
+      "end": 37.1,
+      "text": " It has a target, which element has been used for the event and all other details."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 37.1,
+      "end": 39.5,
+      "text": " So we can print all those things here."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 39.5,
+      "end": 42.6,
+      "text": " Let's save it and let's refresh it once."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 42.6,
+      "end": 46.3,
+      "text": " So once we will go here and click on our button."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 46.3,
+      "end": 50.8,
+      "text": " So when we clicked, hello was printed for us and our event object was printed for us."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 50.8,
+      "end": 56.4,
+      "text": " Event object has a lot of different attributes and it has a lot of different methods."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 56.4,
+      "end": 57.599999999999994,
+      "text": " Predefined methods."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 57.599999999999994,
+      "end": 63.8,
+      "text": " One of the most popular method is our prevent default which we use in the case of forms."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 63.8,
+      "end": 65.6,
+      "text": " Now we will see how to use it."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 65.6,
+      "end": 68.0,
+      "text": " We can see the type of our event."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 68.0,
+      "end": 71.7,
+      "text": " If we want, we can see the target."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 71.7,
+      "end": 75.0,
+      "text": " Target means for which element this event has occurred."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 75.0,
+      "end": 77.8,
+      "text": " So target has all the information related to target."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 78.0,
+      "end": 81.39999999999999,
+      "text": " So we can see that this event has appeared for button."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 81.39999999999999,
+      "end": 88.2,
+      "text": " Screen X, Screen Y, we can see the position of our screen page and many other related details."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 88.2,
+      "end": 94.19999999999999,
+      "text": " Now what we will do in this, we will try to design a new component which will be called form."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 94.19999999999999,
+      "end": 96.6,
+      "text": " Now we will make a normal form in this."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 96.6,
+      "end": 102.6,
+      "text": " We will not go into much detail about forms because forms are a little complex topic in react which we will cover in detail later."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 102.6,
+      "end": 106.2,
+      "text": " So for now, we are going to create a simple form."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 107.0,
+      "end": 112.60000000000001,
+      "text": " Let's write export default function and this will be our form component."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 112.60000000000001,
+      "end": 116.8,
+      "text": " Form component is a simple form which returns."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 116.8,
+      "end": 119.8,
+      "text": " We can use our form tag in this."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 119.8,
+      "end": 122.80000000000001,
+      "text": " We have an input which we can define."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 122.80000000000001,
+      "end": 126.80000000000001,
+      "text": " Along with this, there is a submit button which we can write."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 126.80000000000001,
+      "end": 128.2,
+      "text": " We can call it submit."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 129.2,
+      "end": 134.2,
+      "text": " In fact, we don't need much input but for now, let's define an input."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 134.2,
+      "end": 136.2,
+      "text": " Let's put placeholder in this."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 136.2,
+      "end": 139.2,
+      "text": " So this form has been created for us."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 139.2,
+      "end": 144.2,
+      "text": " Now along with form, let's suppose as soon as our form is submitted, what will be that event?"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 144.2,
+      "end": 146.2,
+      "text": " That will be our on submit event."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 146.2,
+      "end": 148.2,
+      "text": " For forms, there is a submit event."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 148.2,
+      "end": 152.2,
+      "text": " As soon as the form is submitted, we can call its handler for it."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 152.2,
+      "end": 154.2,
+      "text": " So for this, let's create a function."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 154.2,
+      "end": 156.2,
+      "text": " We will call it handle."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 156.2,
+      "end": 160.2,
+      "text": " We can call it form submit or handle submit."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 160.2,
+      "end": 164.2,
+      "text": " And here we want to print console.log"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 166.2,
+      "end": 168.2,
+      "text": " form was submitted."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 170.2,
+      "end": 173.2,
+      "text": " So let's save this and along with this, submit."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 173.2,
+      "end": 176.2,
+      "text": " Okay, this should not be submit. This should be a button."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 177.2,
+      "end": 182.2,
+      "text": " And in on click, we add our method which is handle form submit."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 182.2,
+      "end": 184.2,
+      "text": " Let's save this."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 184.2,
+      "end": 186.2,
+      "text": " And let's go to app."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 186.2,
+      "end": 192.2,
+      "text": " First, we have to import our form."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 194.2,
+      "end": 196.2,
+      "text": " And then we will display this form."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 196.2,
+      "end": 198.2,
+      "text": " So our form is here for us."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 198.2,
+      "end": 200.2,
+      "text": " Let's refresh to clear the console."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 200.2,
+      "end": 203.2,
+      "text": " So DOM gets updated but console window doesn't get updated."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 203.2,
+      "end": 205.2,
+      "text": " So what does React do? DOM elements."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 205.2,
+      "end": 208.2,
+      "text": " That means React's job is to keep UI elements updated."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 208.2,
+      "end": 210.2,
+      "text": " So it updates UI not console window."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 210.2,
+      "end": 213.2,
+      "text": " So if you want console clear, you have to refresh for that."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 213.2,
+      "end": 218.2,
+      "text": " Now here, we can even submit the form without writing something"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 218.2,
+      "end": 220.2,
+      "text": " or we can write abcd and submit the form."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 220.2,
+      "end": 223.2,
+      "text": " As soon as we submit the form, you will notice one thing."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 223.2,
+      "end": 226.2,
+      "text": " Suddenly something was displayed here and then it disappeared."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 226.2,
+      "end": 228.2,
+      "text": " That means everything got refreshed."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 228.2,
+      "end": 230.2,
+      "text": " If we click on submit button again,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 230.2,
+      "end": 233.2,
+      "text": " I don't know if you are catching it in the screen recording or not."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 233.2,
+      "end": 235.2,
+      "text": " But as soon as it was submitted,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 235.2,
+      "end": 238.2,
+      "text": " the console.log form was printed there and submitted."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 238.2,
+      "end": 240.2,
+      "text": " But that thing is not persisting."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 240.2,
+      "end": 242.2,
+      "text": " That thing is not stopping on the screen."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 242.2,
+      "end": 245.2,
+      "text": " So this is the default behavior of the form."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 245.2,
+      "end": 247.2,
+      "text": " As soon as it is submitted in the form,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 247.2,
+      "end": 249.2,
+      "text": " by default, this thing that is being printed,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 249.2,
+      "end": 251.2,
+      "text": " it appears for a while and then disappears."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 251.2,
+      "end": 255.2,
+      "text": " So if we want to prevent this default behavior,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 255.2,
+      "end": 256.2,
+      "text": " then what we can do is,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 256.2,
+      "end": 259.2,
+      "text": " our event object has a special method inside it"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 259.2,
+      "end": 261.2,
+      "text": " which is called prevent default."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 261.2,
+      "end": 263.2,
+      "text": " And what does prevent default method do?"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 263.2,
+      "end": 269.2,
+      "text": " It prevents all the default behaviors associated with our event object."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 269.2,
+      "end": 277.2,
+      "text": " So here, if I call this method event.preventDefault"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 277.2,
+      "end": 280.2,
+      "text": " and if we save it,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 280.2,
+      "end": 282.2,
+      "text": " and let's refresh it once."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 282.2,
+      "end": 285.2,
+      "text": " So if we submit our form this time,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 285.2,
+      "end": 287.2,
+      "text": " then our default behavior will be prevented"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 287.2,
+      "end": 289.2,
+      "text": " and the thing that will be for us will persist."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 289.2,
+      "end": 291.2,
+      "text": " If we submit the form again,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 291.2,
+      "end": 292.2,
+      "text": " the thing will persist again,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 292.2,
+      "end": 294.2,
+      "text": " persist again, and persist again."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 294.2,
+      "end": 296.2,
+      "text": " One more thing you will notice is that"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 296.2,
+      "end": 298.2,
+      "text": " if it was our default behavior,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 298.2,
+      "end": 300.2,
+      "text": " we will save and refresh it."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 300.2,
+      "end": 302.2,
+      "text": " If I write A, B, C, D and I submit,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 302.2,
+      "end": 303.2,
+      "text": " then what happens in that case is,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 303.2,
+      "end": 305.2,
+      "text": " because of default behavior, the input also gets empty."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 305.2,
+      "end": 309.2,
+      "text": " But because this time we have completely prevented the default behavior,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 309.2,
+      "end": 311.2,
+      "text": " and if I now write something and submit,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 311.2,
+      "end": 312.2,
+      "text": " then what happens is,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 312.2,
+      "end": 314.2,
+      "text": " our input element is not yet empty."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 314.2,
+      "end": 316.2,
+      "text": " So generally, a lot of default behaviors"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 316.2,
+      "end": 318.2,
+      "text": " associated with the form based on submission,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 318.2,
+      "end": 321.2,
+      "text": " if we want to prevent all those behaviors,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 321.2,
+      "end": 324.2,
+      "text": " then we can access the event object to prevent those behaviors."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 324.2,
+      "end": 327.2,
+      "text": " This fact, this special thing,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 327.2,
+      "end": 329.2,
+      "text": " we will be using it later while reading the forms."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 329.2,
+      "end": 331.2,
+      "text": " But for now, it is important to know."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 331.2,
+      "end": 334.2,
+      "text": " One thing here is that we did not write our onSubmit event,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 334.2,
+      "end": 336.2,
+      "text": " we wrote onClick event."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 336.2,
+      "end": 338.2,
+      "text": " Rest, no change will come in the functionality."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 338.2,
+      "end": 341.2,
+      "text": " Because if any button is present in any form,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 341.2,
+      "end": 343.2,
+      "text": " then by default, what does the form do?"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 343.2,
+      "end": 346.2,
+      "text": " It treats it like a submit button and it gets submitted."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 346.2,
+      "end": 349.2,
+      "text": " Rest, if we want to check the submit functionality specifically,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 349.2,
+      "end": 352.2,
+      "text": " then we will write our event in the form,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 352.2,
+      "end": 354.2,
+      "text": " because this event is for our form,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 354.2,
+      "end": 356.2,
+      "text": " we will call it onSubmit."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 356.2,
+      "end": 358.2,
+      "text": " And in onSubmit, we will handle the form submit."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 358.2,
+      "end": 360.2,
+      "text": " If we save,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 360.2,
+      "end": 362.2,
+      "text": " if we comment out the prevent default,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 362.2,
+      "end": 365.2,
+      "text": " refresh, if I write something here called ABCD,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 365.2,
+      "end": 366.2,
+      "text": " and as soon as I submit it,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 366.2,
+      "end": 368.2,
+      "text": " something gets printed and disappears."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 368.2,
+      "end": 371.2,
+      "text": " But as soon as we do prevent default for our event,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 371.2,
+      "end": 373.2,
+      "text": " refresh, ABCD, submit,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 373.2,
+      "end": 375.2,
+      "text": " so this time our form is being submitted for us,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 375.2,
+      "end": 377.2,
+      "text": " and things are being printed here."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 377.2,
+      "end": 378.2,
+      "text": " So default behavior,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 378.2,
+      "end": 380.2,
+      "text": " whether onClick is applied here,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 380.2,
+      "end": 382.2,
+      "text": " or whether onSubmit is applied here,"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 382.2,
+      "end": 383.2,
+      "text": " it will be in both cases."
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 383.2,
+      "end": 385.2,
+      "text": " Because by default, all the buttons of the form"
+    },
+    {
+      "number": "03",
+      "title": "Event Object.mp3",
+      "start": 385.2,
+      "end": 387.2,
+      "text": " are submitting things."
+    }
+  ],
+  "text": " Next we will talk about our event object. Whenever an event occurs, an event object is associated with it which is automatically passed to our handler. For example, this button click event, handle click. In this handle click, we can write an argument for ourselves which is called event. And if we want, we can print it. Let's print it after hello. Here, console.log event. And this event object has all the information related to the event. It has a target, which element has been used for the event and all other details. So we can print all those things here. Let's save it and let's refresh it once. So once we will go here and click on our button. So when we clicked, hello was printed for us and our event object was printed for us. Event object has a lot of different attributes and it has a lot of different methods. Predefined methods. One of the most popular method is our prevent default which we use in the case of forms. Now we will see how to use it. We can see the type of our event. If we want, we can see the target. Target means for which element this event has occurred. So target has all the information related to target. So we can see that this event has appeared for button. Screen X, Screen Y, we can see the position of our screen page and many other related details. Now what we will do in this, we will try to design a new component which will be called form. Now we will make a normal form in this. We will not go into much detail about forms because forms are a little complex topic in react which we will cover in detail later. So for now, we are going to create a simple form. Let's write export default function and this will be our form component. Form component is a simple form which returns. We can use our form tag in this. We have an input which we can define. Along with this, there is a submit button which we can write. We can call it submit. In fact, we don't need much input but for now, let's define an input. Let's put placeholder in this. So this form has been created for us. Now along with form, let's suppose as soon as our form is submitted, what will be that event? That will be our on submit event. For forms, there is a submit event. As soon as the form is submitted, we can call its handler for it. So for this, let's create a function. We will call it handle. We can call it form submit or handle submit. And here we want to print console.log form was submitted. So let's save this and along with this, submit. Okay, this should not be submit. This should be a button. And in on click, we add our method which is handle form submit. Let's save this. And let's go to app. First, we have to import our form. And then we will display this form. So our form is here for us. Let's refresh to clear the console. So DOM gets updated but console window doesn't get updated. So what does React do? DOM elements. That means React's job is to keep UI elements updated. So it updates UI not console window. So if you want console clear, you have to refresh for that. Now here, we can even submit the form without writing something or we can write abcd and submit the form. As soon as we submit the form, you will notice one thing. Suddenly something was displayed here and then it disappeared. That means everything got refreshed. If we click on submit button again, I don't know if you are catching it in the screen recording or not. But as soon as it was submitted, the console.log form was printed there and submitted. But that thing is not persisting. That thing is not stopping on the screen. So this is the default behavior of the form. As soon as it is submitted in the form, by default, this thing that is being printed, it appears for a while and then disappears. So if we want to prevent this default behavior, then what we can do is, our event object has a special method inside it which is called prevent default. And what does prevent default method do? It prevents all the default behaviors associated with our event object. So here, if I call this method event.preventDefault and if we save it, and let's refresh it once. So if we submit our form this time, then our default behavior will be prevented and the thing that will be for us will persist. If we submit the form again, the thing will persist again, persist again, and persist again. One more thing you will notice is that if it was our default behavior, we will save and refresh it. If I write A, B, C, D and I submit, then what happens in that case is, because of default behavior, the input also gets empty. But because this time we have completely prevented the default behavior, and if I now write something and submit, then what happens is, our input element is not yet empty. So generally, a lot of default behaviors associated with the form based on submission, if we want to prevent all those behaviors, then we can access the event object to prevent those behaviors. This fact, this special thing, we will be using it later while reading the forms. But for now, it is important to know. One thing here is that we did not write our onSubmit event, we wrote onClick event. Rest, no change will come in the functionality. Because if any button is present in any form, then by default, what does the form do? It treats it like a submit button and it gets submitted. Rest, if we want to check the submit functionality specifically, then we will write our event in the form, because this event is for our form, we will call it onSubmit. And in onSubmit, we will handle the form submit. If we save, if we comment out the prevent default, refresh, if I write something here called ABCD, and as soon as I submit it, something gets printed and disappears. But as soon as we do prevent default for our event, refresh, ABCD, submit, so this time our form is being submitted for us, and things are being printed here. So default behavior, whether onClick is applied here, or whether onSubmit is applied here, it will be in both cases. Because by default, all the buttons of the form are submitting things."
+}

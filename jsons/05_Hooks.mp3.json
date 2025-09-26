@@ -1,0 +1,187 @@
+{
+  "chunks": [
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 0.0,
+      "end": 2.0,
+      "text": " Now let's talk about hooks."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 2.0,
+      "end": 6.6000000000000005,
+      "text": " So when we talk about hooks, basically when we had React in the beginning,"
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 6.6000000000000005,
+      "end": 10.0,
+      "text": " in the beginning when React came, the components that were built in it"
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 10.0,
+      "end": 12.5,
+      "text": " were not built in the form of function."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 12.5,
+      "end": 17.5,
+      "text": " The first component that we had was used to be called class components."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 17.5,
+      "end": 22.5,
+      "text": " And now the components that we build, which we use to use the function keyword,"
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 22.5,
+      "end": 25.0,
+      "text": " we call them functional components."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 25.0,
+      "end": 31.0,
+      "text": " So in the documentation of React, in fact, it is advised everywhere that we should build functional components."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 31.0,
+      "end": 34.0,
+      "text": " Now the first components that we had were class components."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 34.0,
+      "end": 38.0,
+      "text": " There were some features in them that did not exist in the functional components."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 38.0,
+      "end": 42.0,
+      "text": " So to add these features, we had the concept of hooks."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 42.0,
+      "end": 48.0,
+      "text": " Hooks were a new addition in the React 16.8 version, which I believe came in 2019."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 48.0,
+      "end": 54.0,
+      "text": " So what are hooks? Hooks are basically functions that let you use state and other React features"
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 54.0,
+      "end": 56.0,
+      "text": " without writing a class."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 56.0,
+      "end": 58.0,
+      "text": " That is, we had to write a class component first."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 58.0,
+      "end": 62.0,
+      "text": " Now we have to add our hooks in the functional component and"
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 62.0,
+      "end": 66.0,
+      "text": " all the features, one of them is a feature of state."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 66.0,
+      "end": 69.0,
+      "text": " We can do all the things that we used to do in class components."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 69.0,
+      "end": 73.0,
+      "text": " Originally when we had hooks in React, we used to have around 10 hooks."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 73.0,
+      "end": 76.0,
+      "text": " We had 10 methods that we could have used."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 76.0,
+      "end": 79.0,
+      "text": " But now we have 5 new add-ons in our 18th version."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 79.0,
+      "end": 82.0,
+      "text": " So now we have total 15 hooks in React."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 82.0,
+      "end": 88.0,
+      "text": " The most common hook that we will talk about, which is the most major hook for us as beginners,"
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 88.0,
+      "end": 94.0,
+      "text": " will be our use state, which helps us to use our state in React."
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 94.0,
+      "end": 98.0,
+      "text": " So if you understand hooks directly, then these are our functions and methods"
+    },
+    {
+      "number": "05",
+      "title": "Hooks.mp3",
+      "start": 98.0,
+      "end": 103.0,
+      "text": " that allow us to give more functionality and more work within our components."
+    }
+  ],
+  "text": " Now let's talk about hooks. So when we talk about hooks, basically when we had React in the beginning, in the beginning when React came, the components that were built in it were not built in the form of function. The first component that we had was used to be called class components. And now the components that we build, which we use to use the function keyword, we call them functional components. So in the documentation of React, in fact, it is advised everywhere that we should build functional components. Now the first components that we had were class components. There were some features in them that did not exist in the functional components. So to add these features, we had the concept of hooks. Hooks were a new addition in the React 16.8 version, which I believe came in 2019. So what are hooks? Hooks are basically functions that let you use state and other React features without writing a class. That is, we had to write a class component first. Now we have to add our hooks in the functional component and all the features, one of them is a feature of state. We can do all the things that we used to do in class components. Originally when we had hooks in React, we used to have around 10 hooks. We had 10 methods that we could have used. But now we have 5 new add-ons in our 18th version. So now we have total 15 hooks in React. The most common hook that we will talk about, which is the most major hook for us as beginners, will be our use state, which helps us to use our state in React. So if you understand hooks directly, then these are our functions and methods that allow us to give more functionality and more work within our components."
+}

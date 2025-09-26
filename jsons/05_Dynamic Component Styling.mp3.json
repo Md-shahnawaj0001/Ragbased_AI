@@ -1,0 +1,488 @@
+{
+  "chunks": [
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 0.0,
+      "end": 3.16,
+      "text": " Next we are going to discuss Dynamic Component Styling"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 3.16,
+      "end": 11.200000000000001,
+      "text": " Dynamic Component Styling means that when we want to add any style to our components based on some condition"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 11.200000000000001,
+      "end": 14.92,
+      "text": " We can also call it Conditional Component Styling or Dynamic"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 14.92,
+      "end": 16.72,
+      "text": " Basically it is decided at run time"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 16.72,
+      "end": 19.8,
+      "text": " For example, when we have displayed our products"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 19.8,
+      "end": 25.84,
+      "text": " The products that have a discount on the products, let's suppose we want to set our background color to pink"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 25.84,
+      "end": 28.0,
+      "text": " How can we implement that?"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 28.0,
+      "end": 34.32,
+      "text": " Because it depends on the condition of the product that the price is greater than 3000"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 34.32,
+      "end": 38.72,
+      "text": " So how can we change our style based on some condition?"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 38.72,
+      "end": 46.519999999999996,
+      "text": " Now the only way to do this is to create a new class in our product.css file"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 46.519999999999996,
+      "end": 51.400000000000006,
+      "text": " And check on the condition on run time or on the basis of the condition that if our condition is satisfied"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 51.400000000000006,
+      "end": 54.0,
+      "text": " Then our class should be added here"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 54.0,
+      "end": 58.08,
+      "text": " But if we say another better or standard way to do this"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 58.08,
+      "end": 64.96000000000001,
+      "text": " So basically we can define our styles here only in our component that we want to show dynamically"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 64.96000000000001,
+      "end": 71.03999999999999,
+      "text": " Now first of all let's see any style based on some condition and not on a normal style"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 71.03999999999999,
+      "end": 76.44,
+      "text": " For example, for now we want all three divs to be blue for our background color"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 76.44,
+      "end": 80.68,
+      "text": " So if we want to define this style, we can make a variable here"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 80.84,
+      "end": 82.68,
+      "text": " Let styles is equal to"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 82.68,
+      "end": 89.68,
+      "text": " And in styles we can write background color is equal to blue"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 89.68,
+      "end": 93.68,
+      "text": " So in this way we can create an object named styles"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 93.68,
+      "end": 97.0,
+      "text": " And in that object we can set the background color to blue"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 97.0,
+      "end": 99.84,
+      "text": " Now one thing to keep in mind that we discussed earlier"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 99.84,
+      "end": 105.80000000000001,
+      "text": " That whatever elements we write in normal styling CSS"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 105.96,
+      "end": 113.16,
+      "text": " Generally if we want to write things in CSS, then we will write background color with hyphen"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 113.16,
+      "end": 116.16,
+      "text": " But whenever we write things in JSX format"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 116.16,
+      "end": 121.75999999999999,
+      "text": " Means whenever we write our styles here, then they will be converted into camel case"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 121.75999999999999,
+      "end": 124.64,
+      "text": " If there is background color, then it will be a background color"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 124.64,
+      "end": 129.32,
+      "text": " If there is margin bottom, then it will be margin bottom"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 129.32,
+      "end": 133.24,
+      "text": " If there is font size, then it will be font size"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 133.24,
+      "end": 137.0,
+      "text": " If there is hyphen, then it will be converted into camel case"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 137.0,
+      "end": 142.16,
+      "text": " If there is border radius, then we will write border radius in JSX"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 142.16,
+      "end": 145.16,
+      "text": " Name is same, so the way to write it is changing"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 145.16,
+      "end": 151.0,
+      "text": " So we can define a variable first, then we can give styles name, ABC name, anything"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 151.0,
+      "end": 153.8,
+      "text": " In this array we have defined some style"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 153.8,
+      "end": 161.48000000000002,
+      "text": " Now we want this div to be given, so for that we have a property named style"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 161.48,
+      "end": 167.64,
+      "text": " In which value is equal to curly braces, we can assign the array with our styles name"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 167.64,
+      "end": 172.67999999999998,
+      "text": " Save it, refresh it, so this time all the divs background color is blue"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 172.67999999999998,
+      "end": 177.04,
+      "text": " We can also set a lighter color, we can call it yellow"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 177.04,
+      "end": 179.39999999999998,
+      "text": " So all the divs are yellow"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 179.39999999999998,
+      "end": 182.04,
+      "text": " So this is possible for us to show this"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 182.04,
+      "end": 186.32,
+      "text": " But what is happening here? All the divs are getting styles here, there is no condition"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 186.48,
+      "end": 193.6,
+      "text": " Generally when we want to do all the divs or if we want to do the background color of H3"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 193.6,
+      "end": 195.92,
+      "text": " We can add styling here as well"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 195.92,
+      "end": 197.92,
+      "text": " Save, refresh"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 197.92,
+      "end": 202.07999999999998,
+      "text": " So now we are getting background color, only H3"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 202.07999999999998,
+      "end": 203.44,
+      "text": " But we don't want this"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 203.44,
+      "end": 206.56,
+      "text": " We want to add styling on a condition"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 206.56,
+      "end": 212.16,
+      "text": " Because if we want to give all the elements and components in style, then we can write it in CSS file"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 212.24,
+      "end": 214.48,
+      "text": " We can check the condition in JSX"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 214.48,
+      "end": 217.12,
+      "text": " It is not possible to check the conditions in CSS"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 217.12,
+      "end": 226.32,
+      "text": " To check our conditions, we can write here that if our price is greater than 30,000"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 226.32,
+      "end": 229.84,
+      "text": " Then we will write our ternary operator here"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 229.84,
+      "end": 233.51999999999998,
+      "text": " So in that case, the value of the background color should be yellow"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 233.51999999999998,
+      "end": 237.51999999999998,
+      "text": " And in other cases, we want to keep the value of the background color null"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 238.08,
+      "end": 245.52,
+      "text": " So let's save it and if we refresh this time, then the background color is only coming from the product"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 245.52,
+      "end": 247.28,
+      "text": " So how this was possible?"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 247.28,
+      "end": 252.24,
+      "text": " When we defined the area of size, then we applied the condition on the value of the background color"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 252.24,
+      "end": 258.24,
+      "text": " In this way, the condition, the statement, it is also possible to write in JavaScript, it is completely valid"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 258.24,
+      "end": 264.56,
+      "text": " If our price value is greater than 30,000, then the value should be yellow in that case, and the value should be null in other cases"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 264.64,
+      "end": 270.4,
+      "text": " We can change the color here, the value should be pink, then we will get the value of the discount"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 270.4,
+      "end": 275.12,
+      "text": " So if we want to apply any condition on the basis of style, then we can apply it in this way"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 275.12,
+      "end": 280.24,
+      "text": " Now in one thing in code, we will notice that the price is greater than 30,000, the price is greater than 30,000"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 280.24,
+      "end": 281.36,
+      "text": " It is repeated for us"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 281.36,
+      "end": 285.68,
+      "text": " So we can shift this thing to a variable named as isDiscount"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 285.68,
+      "end": 291.28,
+      "text": " And in this variable, we can simply write price is greater than 30,000, what value will be for us"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 291.52,
+      "end": 295.03999999999996,
+      "text": " And here we can check, is there some discount?"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 295.03999999999996,
+      "end": 298.15999999999997,
+      "text": " And here we can also write is there some discount?"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 298.15999999999997,
+      "end": 302.79999999999995,
+      "text": " No change will come in our UI, because all things are done in the same way"
+    },
+    {
+      "number": "05",
+      "title": "Dynamic Component Styling.mp3",
+      "start": 302.79999999999995,
+      "end": 306.0,
+      "text": " We have just tried to improve our code a little"
+    }
+  ],
+  "text": " Next we are going to discuss Dynamic Component Styling Dynamic Component Styling means that when we want to add any style to our components based on some condition We can also call it Conditional Component Styling or Dynamic Basically it is decided at run time For example, when we have displayed our products The products that have a discount on the products, let's suppose we want to set our background color to pink How can we implement that? Because it depends on the condition of the product that the price is greater than 3000 So how can we change our style based on some condition? Now the only way to do this is to create a new class in our product.css file And check on the condition on run time or on the basis of the condition that if our condition is satisfied Then our class should be added here But if we say another better or standard way to do this So basically we can define our styles here only in our component that we want to show dynamically Now first of all let's see any style based on some condition and not on a normal style For example, for now we want all three divs to be blue for our background color So if we want to define this style, we can make a variable here Let styles is equal to And in styles we can write background color is equal to blue So in this way we can create an object named styles And in that object we can set the background color to blue Now one thing to keep in mind that we discussed earlier That whatever elements we write in normal styling CSS Generally if we want to write things in CSS, then we will write background color with hyphen But whenever we write things in JSX format Means whenever we write our styles here, then they will be converted into camel case If there is background color, then it will be a background color If there is margin bottom, then it will be margin bottom If there is font size, then it will be font size If there is hyphen, then it will be converted into camel case If there is border radius, then we will write border radius in JSX Name is same, so the way to write it is changing So we can define a variable first, then we can give styles name, ABC name, anything In this array we have defined some style Now we want this div to be given, so for that we have a property named style In which value is equal to curly braces, we can assign the array with our styles name Save it, refresh it, so this time all the divs background color is blue We can also set a lighter color, we can call it yellow So all the divs are yellow So this is possible for us to show this But what is happening here? All the divs are getting styles here, there is no condition Generally when we want to do all the divs or if we want to do the background color of H3 We can add styling here as well Save, refresh So now we are getting background color, only H3 But we don't want this We want to add styling on a condition Because if we want to give all the elements and components in style, then we can write it in CSS file We can check the condition in JSX It is not possible to check the conditions in CSS To check our conditions, we can write here that if our price is greater than 30,000 Then we will write our ternary operator here So in that case, the value of the background color should be yellow And in other cases, we want to keep the value of the background color null So let's save it and if we refresh this time, then the background color is only coming from the product So how this was possible? When we defined the area of size, then we applied the condition on the value of the background color In this way, the condition, the statement, it is also possible to write in JavaScript, it is completely valid If our price value is greater than 30,000, then the value should be yellow in that case, and the value should be null in other cases We can change the color here, the value should be pink, then we will get the value of the discount So if we want to apply any condition on the basis of style, then we can apply it in this way Now in one thing in code, we will notice that the price is greater than 30,000, the price is greater than 30,000 It is repeated for us So we can shift this thing to a variable named as isDiscount And in this variable, we can simply write price is greater than 30,000, what value will be for us And here we can check, is there some discount? And here we can also write is there some discount? No change will come in our UI, because all things are done in the same way We have just tried to improve our code a little"
+}

@@ -1,0 +1,572 @@
+{
+  "chunks": [
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 0.0,
+      "end": 5.12,
+      "text": " whenever we want to render an array, for example if we are writing an array"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 5.12,
+      "end": 8.38,
+      "text": " for example if I have written my array like this"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 8.38,
+      "end": 12.32,
+      "text": " so what is happening here is that all the values are being printed for us"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 12.32,
+      "end": 19.6,
+      "text": " but we want to display all the values in the form of elements or a list"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 19.6,
+      "end": 25.6,
+      "text": " so in that case we have to convert each individual array value into a separate item"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 25.6,
+      "end": 28.1,
+      "text": " and we have two ways to do that"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 28.1,
+      "end": 35.6,
+      "text": " the first way is that when we are sending an array, we are only sending values for now"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 35.6,
+      "end": 38.6,
+      "text": " that means this is an individual value which we have sent"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 38.6,
+      "end": 40.6,
+      "text": " this is an individual value which we have not sent"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 40.6,
+      "end": 45.8,
+      "text": " so instead of sending individual values, we should send an array of elements"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 45.8,
+      "end": 50.3,
+      "text": " for example what does it mean to say elements"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 50.3,
+      "end": 54.0,
+      "text": " for now let's remove this and pass our options array here"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 54.0,
+      "end": 57.5,
+      "text": " so for now all the individual values are being sent but what can we do"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 57.5,
+      "end": 60.9,
+      "text": " we can send an array of elements, an array of HTML elements"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 60.9,
+      "end": 64.1,
+      "text": " how? we can make an li element here"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 64.1,
+      "end": 66.6,
+      "text": " in which we can write our text"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 66.6,
+      "end": 71.1,
+      "text": " and this li element will become a part of our array"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 71.1,
+      "end": 73.9,
+      "text": " it will become a value kept on the index of our array"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 73.9,
+      "end": 78.9,
+      "text": " so when we write code in react, it is possible to pass our values in the array in this way"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 78.9,
+      "end": 81.7,
+      "text": " we can create another li element here"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 81.9,
+      "end": 83.9,
+      "text": " let's remove this"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 85.9,
+      "end": 87.9,
+      "text": " and write it here"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 87.9,
+      "end": 90.4,
+      "text": " and we will get another li element"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 90.4,
+      "end": 92.4,
+      "text": " in which this thing will come"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 92.4,
+      "end": 95.4,
+      "text": " so now when we directly pass our options array"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 95.4,
+      "end": 99.4,
+      "text": " so not only a string will go inside it, a complete HTML element will go inside it"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 99.4,
+      "end": 104.4,
+      "text": " and when we will print our features inside this paragraph"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 104.4,
+      "end": 107.7,
+      "text": " so what JSX will do? JSX will take out one element of the array"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 107.7,
+      "end": 111.10000000000001,
+      "text": " what is in one element of the array? it is a complete list item"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 111.3,
+      "end": 116.0,
+      "text": " so when the list will be printed, the first list item will be printed"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 116.0,
+      "end": 119.0,
+      "text": " then the second list item will be printed"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 119.0,
+      "end": 121.5,
+      "text": " then the third list item will be printed"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 121.5,
+      "end": 126.8,
+      "text": " so in this way when we want our values of the array to be wrapped inside an element"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 126.8,
+      "end": 129.79999999999998,
+      "text": " so we can send them by pre-wrapping them inside the element"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 129.79999999999998,
+      "end": 133.79999999999998,
+      "text": " there is another way to do this which we will use more frequently"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 133.79999999999998,
+      "end": 138.0,
+      "text": " which is we have sent simple values from our product tab"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 138.7,
+      "end": 142.2,
+      "text": " the values that are going from the product tab are our simple strings"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 142.2,
+      "end": 144.2,
+      "text": " but when values are coming inside the product"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 144.2,
+      "end": 146.2,
+      "text": " when we are printing the feature"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 146.2,
+      "end": 149.2,
+      "text": " so here we can map things for the entire array"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 149.2,
+      "end": 153.2,
+      "text": " the work of map function is to take every element of the array"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 153.2,
+      "end": 155.2,
+      "text": " and make some changes inside it"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 155.2,
+      "end": 161.2,
+      "text": " so we want to wrap the normal string element of the array inside an li"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 161.2,
+      "end": 164.7,
+      "text": " and we want to repeat this for every element of the array"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 164.7,
+      "end": 166.7,
+      "text": " so for that we can use the map method"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 166.89999999999998,
+      "end": 167.89999999999998,
+      "text": " how will we use it?"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 167.89999999999998,
+      "end": 170.89999999999998,
+      "text": " here we will make a new variable"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 170.89999999999998,
+      "end": 171.89999999999998,
+      "text": " let's call it list"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 171.89999999999998,
+      "end": 173.39999999999998,
+      "text": " and what will happen with list?"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 173.39999999999998,
+      "end": 177.39999999999998,
+      "text": " we will map our features array"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 177.39999999999998,
+      "end": 183.89999999999998,
+      "text": " by mapping it we will take our individual feature"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 183.89999999999998,
+      "end": 185.39999999999998,
+      "text": " we can also write it as element"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 185.39999999999998,
+      "end": 187.39999999999998,
+      "text": " this is not features, this is feature"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 187.39999999999998,
+      "end": 190.89999999999998,
+      "text": " we will convert every individual feature to this li"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 190.89999999999998,
+      "end": 194.89999999999998,
+      "text": " inside which our feature value will come separately"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 195.1,
+      "end": 199.1,
+      "text": " so every feature value which was original will be replaced to this element"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 199.1,
+      "end": 202.1,
+      "text": " which has li and li has feature value"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 202.1,
+      "end": 204.1,
+      "text": " and this time when we have to render"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 204.1,
+      "end": 207.6,
+      "text": " so we will be rendering our list directly"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 207.6,
+      "end": 209.1,
+      "text": " rather than the features array"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 209.1,
+      "end": 210.6,
+      "text": " we will save it and refresh it"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 210.6,
+      "end": 212.6,
+      "text": " so we will get the same output"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 212.6,
+      "end": 213.6,
+      "text": " one thing you might have noticed"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 213.6,
+      "end": 215.6,
+      "text": " that the first thing we talked about is that"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 215.6,
+      "end": 216.6,
+      "text": " that wheat is faster and quicker"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 216.6,
+      "end": 219.6,
+      "text": " you can notice that change here"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 219.6,
+      "end": 222.6,
+      "text": " because when we use nodemon or nodejs"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 222.6,
+      "end": 224.6,
+      "text": " so we don't see that much instant change"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 225.29999999999998,
+      "end": 227.29999999999998,
+      "text": " but here inside the UI itself"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 227.29999999999998,
+      "end": 229.29999999999998,
+      "text": " you can see the changes are very fast"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 229.29999999999998,
+      "end": 234.29999999999998,
+      "text": " now if we want we can copy this code directly here"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 234.29999999999998,
+      "end": 236.29999999999998,
+      "text": " so generally what we do is"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 236.29999999999998,
+      "end": 238.29999999999998,
+      "text": " we write the whole logic here"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 238.29999999999998,
+      "end": 240.29999999999998,
+      "text": " rather than making a separate variable"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 240.29999999999998,
+      "end": 242.29999999999998,
+      "text": " we save it and refresh it"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 242.29999999999998,
+      "end": 244.29999999999998,
+      "text": " so we will get the same output"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 244.29999999999998,
+      "end": 245.29999999999998,
+      "text": " now map method can be done"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 245.29999999999998,
+      "end": 248.29999999999998,
+      "text": " some students might have missed out on revision time"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 248.29999999999998,
+      "end": 250.29999999999998,
+      "text": " so revise the map method once"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 250.29999999999998,
+      "end": 254.29999999999998,
+      "text": " because in react whenever we have to render the array"
+    },
+    {
+      "number": "03",
+      "title": "Rendering Arrays.mp3",
+      "start": 254.3,
+      "end": 257.0,
+      "text": " so we will be using map method very frequently"
+    }
+  ],
+  "text": " whenever we want to render an array, for example if we are writing an array for example if I have written my array like this so what is happening here is that all the values are being printed for us but we want to display all the values in the form of elements or a list so in that case we have to convert each individual array value into a separate item and we have two ways to do that the first way is that when we are sending an array, we are only sending values for now that means this is an individual value which we have sent this is an individual value which we have not sent so instead of sending individual values, we should send an array of elements for example what does it mean to say elements for now let's remove this and pass our options array here so for now all the individual values are being sent but what can we do we can send an array of elements, an array of HTML elements how? we can make an li element here in which we can write our text and this li element will become a part of our array it will become a value kept on the index of our array so when we write code in react, it is possible to pass our values in the array in this way we can create another li element here let's remove this and write it here and we will get another li element in which this thing will come so now when we directly pass our options array so not only a string will go inside it, a complete HTML element will go inside it and when we will print our features inside this paragraph so what JSX will do? JSX will take out one element of the array what is in one element of the array? it is a complete list item so when the list will be printed, the first list item will be printed then the second list item will be printed then the third list item will be printed so in this way when we want our values of the array to be wrapped inside an element so we can send them by pre-wrapping them inside the element there is another way to do this which we will use more frequently which is we have sent simple values from our product tab the values that are going from the product tab are our simple strings but when values are coming inside the product when we are printing the feature so here we can map things for the entire array the work of map function is to take every element of the array and make some changes inside it so we want to wrap the normal string element of the array inside an li and we want to repeat this for every element of the array so for that we can use the map method how will we use it? here we will make a new variable let's call it list and what will happen with list? we will map our features array by mapping it we will take our individual feature we can also write it as element this is not features, this is feature we will convert every individual feature to this li inside which our feature value will come separately so every feature value which was original will be replaced to this element which has li and li has feature value and this time when we have to render so we will be rendering our list directly rather than the features array we will save it and refresh it so we will get the same output one thing you might have noticed that the first thing we talked about is that that wheat is faster and quicker you can notice that change here because when we use nodemon or nodejs so we don't see that much instant change but here inside the UI itself you can see the changes are very fast now if we want we can copy this code directly here so generally what we do is we write the whole logic here rather than making a separate variable we save it and refresh it so we will get the same output now map method can be done some students might have missed out on revision time so revise the map method once because in react whenever we have to render the array so we will be using map method very frequently"
+}
