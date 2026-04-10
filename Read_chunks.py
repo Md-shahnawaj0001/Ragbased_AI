@@ -2,35 +2,58 @@ import requests
 import os
 import json
 
-def create_embedding(text_list):
-    r = requests.post("http://localhost:11434/api/embed",json={
-        "model": "bge-m3",
-        "input": text_list
-    })
+# 🔥 Create embedding function
+def create_embedding(text):
+    r = requests.post(
+        "http://localhost:11434/api/embeddings",
+        json={
+            "model": "bge-m3",
+            "prompt": text
+        }
+    )
 
-    embedding = r.json()['embeddings']
-    return embedding
+    res = r.json()
+
+    # ⚠️ error check
+    if 'embedding' not in res:
+        print("❌ Error in embedding:", res)
+        return None
+
+    return res['embedding']
 
 
+# 📂 Read json files
 jsons = os.listdir("jsons")
 
-my_dicts = []
+# 🔥 ONLY FIRST FILE (for testing)
+jsons = jsons[:1]
+
 chunk_id = 0
 
-
 for json_file in jsons:
-    with open(f"jsons/{json_file}")as f:
+    print(f"\n📂 Processing file: {json_file}")
+
+    with open(f"jsons/{json_file}", encoding="utf-8") as f:
         content = json.load(f)
-    embeddings = create_embedding([c['text']for c in content['chunks']])
 
-    for i,chunk in enumerate(content['chunks']):
-        
-        chunk['chunk_id']= chunk_id
-        chunk['embedding'] = embeddings[i]
+    # 🔥 process each chunk
+    for chunk in content["chunks"]:
+        print(f"⚡ Processing chunk {chunk_id}")
+
+        embedding = create_embedding(chunk["text"])
+
+        if embedding is None:
+            continue
+
+        chunk["chunk_id"] = chunk_id
+        chunk["embedding"] = embedding
+
         chunk_id += 1
-        my_dicts.append(chunk)
-        print(chunk)
-    break
 
-# a = create_embedding(["cat sat on the mat", "harry dances on mat"])
-# print(a)
+    # 💾 save updated file
+    with open(f"jsons/{json_file}", "w", encoding="utf-8") as f:
+        json.dump(content, f, ensure_ascii=False, indent=4)
+
+    print(f"✅ Saved: {json_file}")
+
+print("\n🎉 DONE!")
