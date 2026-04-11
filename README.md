@@ -66,7 +66,7 @@ streamlit run app.py
 
 ## 📸 Demo
 
-*Add screenshots here*
+
  
 ---
 
