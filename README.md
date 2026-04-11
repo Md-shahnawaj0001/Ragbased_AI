@@ -40,9 +40,8 @@ A powerful Retrieval-Augmented Generation (RAG) chatbot built using **Python, St
 
 ### 1. Clone repo
 
-git clone https://github.com/Md-shanawaj0001/rag-ai-chatbot.git
-cd rag-ai-chatbot
-```
+git clone https://github.com/Md-shahnawaj0001/Ragbased_AI.git
+cd Ragbased_AI
 
 ### 2. Activate venv
 
